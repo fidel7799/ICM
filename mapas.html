@@ -1,0 +1,260 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ICM | Mapa</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="js/ammap/ammap.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap_btn.min.css">
+		<link href="css/hover.css" rel="stylesheet" media="all">
+		<link rel="stylesheet" href="stylesheets/mdl_btn.css">
+		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+		<!-- Compiled and minified JavaScript -->
+
+		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css?ver=1.4" type="text/css">
+		<link rel="stylesheet" href="css/fonts/fonts.css" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+		<link rel="stylesheet" href="css/quickselect.css">
+
+	</head>
+
+	<body>
+		<div class="loader">
+			<img src="images/bars.svg" />
+		</div>
+		<div class="body">
+			<div class="menu0 valign-wrapper">
+				<nav class="" role="navigation">
+					<div class="nav-wrapper container">
+
+						<a href="#!" class="brand-logo col s6"><img src="images/logoicm.png" class=" valign-wrapper " alt="ICM ÍNDICE DE CIUDADES MODERNAS" /></a>
+						<a href="#!" data-activates="mobile-demo" class="button-collapse col s6"><i class="material-icons">menu</i></a>
+						<ul id="nav-mobile" class="right hide-on-med-and-down">
+							<li>
+								<a href="index.html" class="menutop">INICIO</a>
+							</li>
+							<li>
+								<a href="mapas.html" class="menutop">MAPA</a>
+							</li>
+							<li>
+								<a href="docs/icm.pdf" target="_blank" class="descarga">PDF</a>
+							</li>
+							<li>
+								<a href="docs/icm.xls" target="_blank" class="descarga">EXCEL</a>
+							</li>
+						</ul>
+						<ul class="side-nav" id="mobile-demo">
+							<li>
+								<a href="index.html" class="menutop">INICIO</a>
+							</li>
+							<li>
+								<a href="mapas.html" class="menutop">MAPA</a>
+							</li>
+							<li>
+								<a href="docs/icm.pdf" target="_blank" class="descarga">PDF</a>
+							</li>
+							<li>
+								<a href="docs/icm.xls" target="_blank" class="descarga">EXCEL</a>
+							</li>
+						</ul>
+
+					</div>
+				</nav>
+			</div>
+
+			<div class="cuerpo container">
+				<div class="row columna" id="mapa">
+					<div  class=" col s12 m6 contenedormapa">
+						<div id="mapdiv" class=" col s12"></div>
+						<img class="imgconvenciones" src="images/CONVENCIONES.png" />
+					</div>
+
+					<div class="col s12 m6 columder">
+						<div class="buscador activo">
+							Buscador
+						</div>
+
+						<div class="seleccion">
+							<div class="cont-ciudades">
+								<div class="cont-tipo">
+									<select id="tipo" name="tipo">
+										<option value="ciudad">CIUDADES</option>
+										<option value="municipios">MUNICIPIOS</option>
+									</select>
+								</div>
+
+							</div>
+							<div class="tipociudadcont">
+								</span>
+								<select id="tipociudad" name="tipociudad">
+									<option value="normal">FUNCIONALES</option>
+									<option value="uninodal">UNINODALES</option>
+								</select>
+							</div>
+
+							<div class="tipo">
+								<select id="ciudades" name="ciudades">
+									<option value=""></option>
+								</select>
+							</div>
+						</div>
+						<div class="cont-municipios">
+							<select id="municipios" class="browser-default" name="municipios">
+								<option value="">Seleccione uno:</option>
+							</select>
+
+						</div>
+						<div class="buscador2">
+							Seleccione otra ciudad
+						</div>
+						<div class="seleccion">
+							<div class="cont-ciudades2">
+								<div class="cont-tipo">
+									<select id="tipo2" name="tipo">
+										<option value="ciudad">CIUDADES</option>
+										<option value="municipios">MUNICIPIOS</option>
+									</select>
+								</div>
+							</div>
+							<div class="tipociudadcont2">
+								</span>
+								<select id="tipociudad2" name="tipociudad2">
+									<option value="normal">FUNCIONALES</option>
+									<option value="uninodal">UNINODALES</option>
+								</select>
+							</div>
+							<div class="tipo2">
+								<select id="ciudades2" name="ciudades">
+									<option value=""></option>
+								</select>
+							</div>
+
+						</div>
+						<div class="cont-municipios2">
+							<select id="municipios2" class="browser-default" name="municipios2">
+								<option value="">Seleccione uno:</option>
+							</select>
+
+						</div>
+						<div class="content-charts">
+							<div class="contenido-charts">
+								<div class="titulo">
+									<a href="#" class="cerrar" data-destino="" data-destino2=""><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+									<div class="titulos">
+										<div class="municipio"></div>
+										<div class="ranking"></div>
+
+									</div>
+								</div>
+								<div class="titulo2">
+									<a href="#" class="cerrar2" data-destino="" data-destino2=""><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+									<div class="titulos2">
+										<div class="municipio2"></div>
+										<div class="ranking2"></div>
+
+									</div>
+								</div>
+								<div class="graficos">
+									<div id="chartdiv3" class="contenido-chart"></div>
+									<div id="chartdiv2" class="contenido-chart"></div>
+									<div id="chartdiv1" class="contenido-chart"></div>
+									<div id="chartdiv0" class="contenido-chart"></div>
+									<div id="chartdiv4" class="contenido-chart"></div>
+									<div class="contenido-chart c-destino">
+										<!-- Ciencia y tecnologia ok-->
+										<div id="chartdiv5" class="contenido-chart-med"></div>
+										<!-- c1,c2 -->
+										<div id="chartdiv6" class="contenido-chart-med"></div>
+										<!-- t1,t2 -->
+									</div>
+									<div class="contenido-chart c-destino2">
+										<!-- Productividad ok-->
+										<div id="chartdiv7" class="contenido-chart-ter"></div>
+										<!-- p1, p2 -->
+										<div id="chartdiv15" class="contenido-chart-ter"></div>
+										<!-- co1, co2, co3, co4 -->
+										<div id="chartdiv16" class="contenido-chart-ter"></div>
+										<!-- com1, com2 -->
+									</div>
+									<div class="contenido-chart c-destino3">
+										<!-- Paz territorial ok-->
+										<div id="chartdiv8" class="contenido-chart-med"></div>
+										<!-- ic1, ic2, ic3, ic4 -->
+										<div id="chartdiv9" class="contenido-chart-med"></div>
+										<!-- s1,s2,s3 -->
+									</div>
+									<div class="contenido-chart c-destino6">
+										<!-- Equidad ok-->
+										<div id="chartdiv13" class="contenido-chart-ter"></div>
+										<!-- po1 -->
+										<div id="chartdiv17" class="contenido-chart-ter"></div>
+										<!-- sa1, sa2 -->
+										<div id="chartdiv18" class="contenido-chart-ter"></div>
+										<!-- ed1, ed2 -->
+									</div>
+									<div class="contenido-chart c-destino4">
+										<!-- Gobernanza -->
+										<div id="chartdiv10" class="contenido-chart-ter"></div>
+										<!-- gob1, gob2 -->
+										<div id="chartdiv19" class="contenido-chart-ter"></div>
+										<!-- par1 -->
+										<div id="chartdiv20" class="contenido-chart-ter"></div>
+										<!-- fo1, fo2, fo3, fo4 -->
+									</div>
+									<div class="contenido-chart c-destino5">
+										<!-- Sostenibilidad -->
+										<div id="chartdiv11" class="contenido-chart-ter"></div>
+										<!-- cn1, cn2 -->
+										<div id="chartdiv12" class="contenido-chart-ter"></div>
+										<!-- cua1, cua2, cua3, cua4 -->
+										<div id="chartdiv14" class="contenido-chart-ter"></div>
+										<!-- adr1, adr2 -->
+									</div>
+								</div>
+								<div class="clear"></div>
+								<div class="botones">
+									<a href="#chartdiv3" class="boton active"><img src="images/icmh.png" /></a>
+									<a href="#chartdiv2" class="boton"><img src="images/radar.png" /></a>
+									<a href="#chartdiv1" class="boton"><img src="images/tabla.png" /></a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer text-center">
+			<img src="images/logos.png" />
+		</div>
+		<script src="js/ammap/ammap.js" type="text/javascript"></script>
+		<!-- charts -->
+		<script src="js/amcharts/amcharts.js" type="text/javascript"></script>
+		<script src="js/amcharts/pie.js" type="text/javascript"></script>
+		<script src="js/amcharts/radar.js" type="text/javascript"></script>
+		<script src="js/amcharts/serial.js" type="text/javascript"></script>
+		<script src="js/ammap/ammap_amcharts_extension.js" type="text/javascript"></script>
+		<script src="//www.amcharts.com/lib/3/plugins/responsive/responsive.min.js"></script>
+		<!-- map file -->
+		<script src="js/ammap/maps/js/colombiaHigh.js" type="text/javascript"></script>
+		<script src="js/ammap/themes/light.js" type="text/javascript"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+		<!-- popSelect -->
+
+		<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="js/quickselect.js"></script>
+		<script src="js/ciudades.js" type="text/javascript"></script>
+		<script src="js/uninodales.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+	</body>
+
+</html>

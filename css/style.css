@@ -1,0 +1,798 @@
+body {
+	background-color: #ffffff;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+hr {
+	border: 1px solid #FFFFFF;
+}
+.mapdiv a:link {
+	color: #0055CC;
+}
+.mapdiv a:visited {
+	color: #990099;
+}
+a:hover {
+	color: #CC0000;
+}
+th {
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+td {
+	background-color: #ecf7fe;
+	text-align: center;
+}
+.cuerpo .row {
+	height: 100%;
+	position: relative;
+}
+.cuerpo {
+	position: relative;
+	z-index: 0;
+	font-family: 'Futura Std Light', Arial, Helvetica;
+}
+.cuerpo:before {
+	position: absolute;
+	top: 0;
+	left: -96%;
+	width: 100%;
+	height: 100%;
+	content: "";
+
+	z-index: -8;
+	display: block;
+}
+.index.cuerpo:before{
+	background: url(../images/fondoizq.png) bottom right no-repeat;
+}
+.cuerpo:after {
+	position: absolute;
+	top: 0;
+	right: -82%;
+	width: 100%;
+	height: 100%;
+	content: "";
+
+	z-index: -8;
+	display: block;
+}
+.index.cuerpo:after{
+	background: url(../images/fondoder.png) top left no-repeat;
+}
+.amcharts-axis-title {
+	text-transform: uppercase;
+	width: 100px
+}
+.amcharts-pie-slice {
+	transform: scale(1);
+	transform-origin: 50% 50%;
+	transition-duration: 0.3s;
+	transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	cursor: pointer;
+	box-shadow: 0 0 30px 0 #000;
+}
+.amcharts-pie-slice:hover {
+	transform: scale(1.1);
+	filter: url(#shadow);
+}
+.content-charts {
+	width: 100%;
+	z-index: 100;
+	height: 100%;
+}
+.contenido-charts {
+
+}
+.columna-der {
+	position: absolute;
+	top: 0;
+	right: 3%;
+	width: 35%;
+	min-width: 300px;
+	max-width: 400px;
+	padding: 10px;
+}
+.completo {
+	height: 100%;
+	background: #ffffff;
+}
+.contenido-chart {
+	width: 100%;
+	height: 350px;
+	max-height: 400px;
+	position: relative;
+	display: none;
+}
+.graficos {
+	height: 340px;
+	width: 100%;
+	margin-bottom: 10px;
+	background: rgba(255,255,255,0.5);
+	border-radius: 0px;
+}
+.content-charts, .botones {
+	display: none;
+}
+.cuerpo {
+	height: 88%;
+}
+#mapdiv {
+	height: 90%;
+	min-height: 400px;
+	max-height: 560px;
+	padding: 20px;
+	margin-top: 5px;
+}
+#ciudades {
+	width: 100%;
+}
+.seleccion {
+	margin-top: 10px;
+	display: block;
+	position: relative;
+}
+.cont-ciudades, .cont-ciudades2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	text-transform: uppercase;
+	z-index: 1000;
+}
+.cont-ciudades .btn, .cont-ciudades2 .btn {
+	text-transform: uppercase;
+}
+.buscador, .buscador2 {
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	background: rgba(211,211,211,0.5);
+	margin-top: 20px;
+	border-radius: 0px;
+	font-size: 12px;
+}
+.buscador2 {
+	display: none;
+	margin-top: 10px;
+}
+.clear {
+	clear: both;
+}
+.botones .boton {
+	width: 32.3%;
+	text-align: center;
+	display: inline-block;
+}
+#legenddiv {
+	width: 400px;
+	height: 250px;
+	float: left;
+	font-family: Lato;
+	padding: 60px 0 0 0;
+}
+#legenddiv > div {
+	float: left;
+	width: 100px;
+	height: 50px;
+	margin: 0 20px 30px 0;
+}
+#legenddiv .marker {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	float: left;
+	margin: 2px 5px 0 0;
+}
+#legenddiv .title {
+	color: #646464;
+	font-size: 12px;
+}
+#legenddiv .change {
+	clear: left;
+	margin: 13px 15px 0 0;
+	float: left;
+	color: #629300;
+	font-size: 11px;
+	font-weight: 600;
+}
+#legenddiv .change:before {
+	content: "\25b2";
+	color: #629300;
+	margin-right: 5px
+}
+#legenddiv .change.negative {
+	color: #cf3e3f;
+}
+#legenddiv .change.negative:before {
+	content: "\25bc";
+	color: #cf3e3f;
+	margin-right: 5px
+}
+#legenddiv .value {
+	margin: 10px 0 0 0;
+	float: left;
+	color: #323232;
+	font-size: 15px;
+	font-weight: 600;
+}
+.ranking, .municipio, .ranking2, .municipio2 {
+	display: inline-block;
+	width: 69%;
+	color: #211140;
+	font-size: 12px;
+	text-transform: uppercase;
+	vertical-align: top;
+	line-height: 5px;
+}
+.municipio, .municipio2 {
+	color: #211140;
+}
+.ranking, .ranking2 {
+
+	width: 29%;
+}
+.mun-tit {
+	font-size: 36px;
+	line-height: 36px;
+}
+.titulos .municipio .mun-tit {
+	color: #e3bd7b
+}
+.titulos2 .municipio2 .mun-tit {
+	color: #5aa1a2
+}
+.titulo, .titulo2 {
+	position: relative;
+	display: none;
+}
+.titulos, .titulos2 {
+	background: rgba(255,255,255,0.5);
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.titulo .cerrar, .titulo2 .cerrar2 {
+	position: absolute;
+	right: 5px;
+	top: 24px;
+	display: block;
+	font-size: 16px;
+	color: #f1ac46;
+	background: #ffffff;
+	border-radius: 50%;
+	width: 14px;
+	height: 15px;
+	line-height: 10px;
+}
+.titulo .cerrar img, .titulo2 .cerrar2 img {
+	max-width: 15px;
+}
+#chartdiv3 {
+	padding: 20px;
+	overflow: auto;
+}
+#chartdiv3 .campo {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+#chartdiv3 .campo .imagen_item {
+	text-align: left;
+	vertical-align: middle;
+	margin-right: 5px;
+	max-height: 30px;
+}
+#chartdiv3 .campo .titulo_item {
+	width: 67%;
+	display: inline-block;
+	margin-right: 5%;
+}
+#chartdiv3 .campo .valor_item {
+	width: 25%;
+	display: inline-block;
+	font-weight: bold;
+	font-family: 'Futura Std Bold';
+}
+.efectozoom {
+	/*-webkit-transform: perspective(2000px) rotateX(45deg) rotateY(0deg) rotateZ(0deg) scale(2) translate(340px, 70px);
+	 -moz-transform: perspective(2000px) rotateX(45deg) rotateY(0deg) rotateZ(0deg) scale(2) translate(340px, 70px);
+	 -ms-transform: perspective(2000px) rotateX(45deg) rotateY(0deg) rotateZ(0deg) scale(2) translate(340px, 70px);
+	 -o-transform: perspective(2000px) rotateX(45deg) rotateY(0deg) rotateZ(0deg) scale(2) translate(340px, 70px);
+	 transform: perspective(2000px) rotateX(45deg) rotateY(0deg) rotateZ(0deg) scale(2) translate(340px, 70px);
+	 transition:all 2s ease;*/
+}
+@media only screen and (min-width: 660px) {
+	.body {
+		height: 100%;
+		position: relative;
+		overflow: hidden;
+	}
+}
+.body {
+	width: 100%;
+	overflow: hidden;
+}
+.menu0 {
+	position: relative;
+	top: 0;
+	left: 0;
+	background: #000000;
+	color: #ffffff;
+	width: 100%;
+	height: 12%;
+}
+nav {
+	background: #000000;
+	color: #ffffff;
+	box-shadow: none;
+}
+nav ul a {
+	color: #ffffff;
+}
+.brand-logo img {
+	vertical-align: middle;
+	margin-top: 8px;
+	margin-top: 7px;
+	width: 100%;
+}
+.contenedor {
+	padding: 20px;
+	background: rgba(255,255,255,0.6);
+}
+.tituloclo h5 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #211140;
+	font-family: 'Futura Std Light', Arial, Helvetica;
+	letter-spacing: 3px;
+}
+.tituloclo {
+	margin: auto;
+	padding: 10px;
+	border-bottom: 2px solid #f1ac46;
+	max-width: 380px;
+	width: 100%;
+}
+.contenido {
+	font-size: 14px;
+	padding: 15px;
+	color: #211140;
+	font-family: 'Futura Std Light', Arial, Helvetica;
+	text-align: justify;
+	max-height: 400px;
+}
+#tamaño {
+	font-size: 18px;
+}
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.8;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+		padding-bottom: 1000px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+label::before {
+	margin-left: 5px;
+}
+/* Ocultar botón radio */
+input[id^="spoiler"]{
+	display: none;
+}
+/* Estilo botón clicable */
+input[id^="spoiler"] + label {
+	display: block;
+	width: 170px;
+	height: 23px;
+	margin: 0 auto;
+	padding-left: 15px;
+	background: #ccc;
+	cursor: pointer;
+	transition: all .6s;
+}
+/* Estilo botón cuando su INPUT está seleccionado */
+input[id^="spoiler"]:checked + label {
+	color: #333;
+	background: #999999;
+}
+/* Estilo caja SPOILER (inicialmente oculto) */
+input[id^="spoiler"] ~ .spoiler {
+	height: 0;
+	overflow: hidden;
+	opacity: 0;
+}
+/* Estilo caja SPOILER cuando su INPUT está seleccionado */
+input[id^="spoiler"]:checked + label + .spoiler{
+	height: auto;
+	padding-top: 20px;
+	opacity: 1;
+	transition: all .6s;
+}
+.redes {
+	text-align: center;
+}
+.redes a {
+	display: inline-block;
+	margin-left: 4px;
+	margin-right: 4px;
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	padding: 4px;
+	border-radius: 50%;
+	border: 1px solid #f1ac46;
+	color: #000000;
+	text-align: center;
+	background: transparent;
+	transition: 0.5s all ease;
+}
+.redes a:hover {
+	background: #f1ac46;
+	color: #ffffff;
+	transition: 0.5s all ease;
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.quickselect__btn {
+	min-width: 33%;
+	background: #f6f6f6;
+	color: #000000;
+	font-family: 'Futura Std Light', Arial, Helvetica;
+	font-size: 10px;
+}
+.quickselect__btn:hover {
+	background: #4d8dc6;
+	color: #ffffff;
+}
+select, select option, .select-dropdown {
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.cont-municipios, .cont-municipios2 {
+	display: none;
+}
+.cont-municipios2 {
+	margin-bottom: 10px;
+}
+#municipios, #municipios2 {
+	background-color: rgba(211,211,211,0.5);
+	width: 100%;
+	padding: 3px;
+	border: 1px solid rgba(211,211,211,0.8);
+	border-radius: 0px;
+	height: 20px;
+	margin-top: 5px;
+	line-height: 14px;
+}
+.columder {
+	height: 100%;
+	min-height: 400px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.botones {
+	padding-bottom: 40px;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+}
+.t_item {
+	margin: auto;
+	margin-top: 15px;
+	width: 29%;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	z-index: 0;
+}
+.t_item:before {
+	display: block;
+	position: absolute;
+	width: 68%;
+	height: 79%;
+	border-radius: 50%;
+	content: "";
+	left: 28%;
+	top: 15%;
+	max-height: 62px;
+	max-width: 63px;
+	z-index: -1
+}
+#chartdiv1 {
+	padding: 30px;
+	text-align: center;
+}
+.t_item:hover {
+	cursor: pointer;
+}
+.t_item:hover:before {
+	/*-webkit-box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.83);
+	 -moz-box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.83);
+	 box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.83);*/
+}
+nav .button-collapse {
+	float: right;
+}
+.map-responsive {
+	max-height: 100%;
+}
+.tipo, .tipo2 {
+	display: none;
+	z-index: 1000;
+	position: relative;
+}
+.tipociudadcont, .tipociudadcont2 {
+	display: none;
+}
+.contenido-chart-completo {
+	display: inline-block;
+	width: 99%;
+	z-index: 100;
+	margin-top: 5%;
+	height: 85%;
+}
+.contenido-chart-med {
+	display: inline-block;
+	width: 49%;
+	z-index: 100;
+	margin-top: 5%;
+	height: 85%;
+}
+.contenido-chart-ter {
+	display: inline-block;
+	width: 32%;
+	z-index: 100;
+	margin-top: 5%;
+	height: 85%;
+}
+/*Estilos select alternativo*/
+.select2OptionPicker strong {
+	display: block;
+	clear: left;
+	padding-top: 5px;
+}
+
+.select2OptionPicker ul {
+	list-style-type: none;
+	clear: left;
+	margin: 5px;
+	padding: 0;
+}
+
+.select2OptionPicker li, .select2OptionPicker a {
+	float: left;
+	min-width: 33%;;
+	text-transform: uppercase;
+	background: #ffffff;
+}
+
+.select2OptionPicker li {
+	margin: 0 0 0 0;
+}
+
+.select2OptionPicker li a, .select2OptionPicker .limited a, .select2OptionPicker .disabled {
+	background: #f6f6f6;
+	color: #000000;
+	font-family: 'Futura Std Light', Arial, Helvetica;
+	font-size: 10px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	letter-spacing: .5px;
+	transition: .2s ease-out;
+	cursor: pointer;
+	border: none;
+	border-radius: 2px;
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 2rem;
+	text-transform: uppercase;
+	vertical-align: middle;
+	-webkit-tap-highlight-color: transparent;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.select2OptionPicker li:last-child {
+	margin-right: 0;
+}
+
+.select2OptionPicker a {
+	color: #3c89c8;
+	padding: 4px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.select2OptionPicker .disabled span {
+	padding: 4px;
+	display: block;
+	font-size: 15px;
+	min-width: 37px;
+}
+
+.select2OptionPicker a:hover, .select2OptionPicker .picked {
+	background: #4d8dc6;
+	color: #ffffff;
+}
+.select2OptionPicker .picked:hover a {
+	color: #333;
+	background-color: #d4d4d4;
+	border-color: #8c8c8c;
+}
+.select2OptionPicker .limited a, .select2OptionPicker .disabled {
+	text-align: center;
+}
+
+.select2OptionPicker .disabled {
+	border: 1px solid #d1d1d1;
+	color: #999;
+}
+
+.select2OptionPicker .disabled .picked {
+	border: 1px solid #EAFF00;
+}
+/*Loader*/
+.loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	z-index: 1000;
+}
+.loader img {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -25px;
+}
+.amcharts-plot-area {
+	stroke-width: 10px;
+}
+.contenido-chart-med {
+	padding-top: 10px;
+}
+.tipotm li, .tipo2tm li {
+	width: 50%;
+}
+.imgs {
+	width: 100%
+}
+.imgs img {
+	width: 80%;
+	margin-left: 1%;
+	margin-right: 1%;
+	vertical-align: top;
+}
+.imgconvenciones{
+	  position: fixed;
+    bottom: 10%;
+    left: 10%;
+		width: 20%;
+}
+@media only screen and (min-width: 601px) {
+	.container {
+		width: 90%;
+	}
+}
+@media only screen and (min-width: 993px) {
+	.container {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.cont-ciudades, .cont-ciudades2 {
+		position: relative;
+	}
+	.quickselect__btn {
+		font-size: 10px;
+		min-width: 50%;
+	}
+	.imgs img {
+		width: 98%;
+		margin-left: 1%;
+		margin-right: 1%;
+		vertical-align: top;
+	}
+}
