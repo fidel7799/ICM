@@ -245,14 +245,19 @@ td {
 	line-height: 36px;
 }
 .titulos .municipio .mun-tit {
-	color: #e3bd7b
+	color: Black;
+	text-align: left;
+	font-weight: bold;
 }
 .titulos2 .municipio2 .mun-tit {
-	color: #5aa1a2
+	color: DarkGrey;
+	text-align: left;
+	font-weight: bold;
 }
 .titulo, .titulo2 {
 	position: relative;
 	display: none;
+	text-align: justify;
 }
 .titulos, .titulos2 {
 	background: rgba(255,255,255,0.5);
@@ -293,6 +298,7 @@ td {
 	width: 67%;
 	display: inline-block;
 	margin-right: 5%;
+	text-align: justify;
 }
 #chartdiv3 .campo .valor_item {
 	width: 25%;
@@ -371,12 +377,18 @@ nav ul a {
 }
 #tamaño {
 	font-size: 18px;
+	margin: 0;
+	padding-right: 5px;
+}
+#txtprincipal {
+	margin: 0;
 }
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+		width: 90%;
 }
 
 #myImg:hover {opacity: 0.8;}
@@ -624,6 +636,7 @@ nav .button-collapse {
 	z-index: 100;
 	margin-top: 5%;
 	height: 85%;
+	text-align: justify;
 }
 .contenido-chart-med {
 	display: inline-block;
@@ -765,7 +778,7 @@ nav .button-collapse {
 	vertical-align: top;
 }
 .imgconvenciones{
-	  position: fixed;
+	  position: absolute;
     bottom: 10%;
     left: 10%;
 		width: 20%;
