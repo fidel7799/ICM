@@ -237,7 +237,7 @@ td {
 	color: #211140;
 }
 .ranking, .ranking2 {
-
+	font-weight: bold;
 	width: 29%;
 }
 .mun-tit {
@@ -247,12 +247,10 @@ td {
 .titulos .municipio .mun-tit {
 	color: Black;
 	text-align: left;
-	font-weight: bold;
 }
 .titulos2 .municipio2 .mun-tit {
 	color: DarkGrey;
 	text-align: left;
-	font-weight: bold;
 }
 .titulo, .titulo2 {
 	position: relative;
