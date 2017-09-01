@@ -159,6 +159,7 @@ td {
 	margin-top: 20px;
 	border-radius: 0px;
 	font-size: 12px;
+	cursor: pointer;
 }
 .buscador2 {
 	display: none;
@@ -239,6 +240,8 @@ td {
 .ranking, .ranking2 {
 	font-weight: bold;
 	width: 29%;
+	padding-left: 5px;
+	text-align: center;
 }
 .mun-tit {
 	font-size: 36px;
@@ -265,18 +268,21 @@ td {
 .titulo .cerrar, .titulo2 .cerrar2 {
 	position: absolute;
 	right: 5px;
-	top: 24px;
+	top: 15px;
 	display: block;
-	font-size: 16px;
+	font-size: 30px;
 	color: #f1ac46;
 	background: #ffffff;
 	border-radius: 50%;
-	width: 14px;
-	height: 15px;
+	width: 40px;
+	height: 40px;
 	line-height: 10px;
 }
 .titulo .cerrar img, .titulo2 .cerrar2 img {
-	max-width: 15px;
+ 	max-width: 15px;
+}
+#campodimensiones {
+	padding-right: 20px;
 }
 #chartdiv3 {
 	padding: 20px;
@@ -296,7 +302,7 @@ td {
 	width: 67%;
 	display: inline-block;
 	margin-right: 5%;
-	text-align: justify;
+	text-align: left;
 }
 #chartdiv3 .campo .valor_item {
 	width: 25%;
@@ -669,10 +675,12 @@ nav .button-collapse {
 	min-width: 33%;;
 	text-transform: uppercase;
 	background: #ffffff;
+	padding: 0;
 }
 
 .select2OptionPicker li {
 	margin: 0 0 0 0;
+	padding: 0;
 }
 
 .select2OptionPicker li a, .select2OptionPicker .limited a, .select2OptionPicker .disabled {
@@ -691,7 +699,7 @@ nav .button-collapse {
 	display: inline-block;
 	height: 36px;
 	line-height: 36px;
-	padding: 0 2rem;
+	padding: 0;
 	text-transform: uppercase;
 	vertical-align: middle;
 	-webkit-tap-highlight-color: transparent;
@@ -777,10 +785,24 @@ nav .button-collapse {
 }
 .imgconvenciones{
 	  position: absolute;
-    bottom: 10%;
+    top: 70%;
     left: 10%;
 		width: 20%;
+		z-index: 100000;
 }
+@media (max-width: 700px) {
+	.imgconvenciones {
+		width: 30%;
+	}
+@media (max-width: 600px) {
+	.imgconvenciones {
+		width: 50%;
+	}
+@media (max-width: 500px) {
+	.imgconvenciones {
+		width: 50%;
+		top: 50%;
+	}
 @media only screen and (min-width: 601px) {
 	.container {
 		width: 90%;

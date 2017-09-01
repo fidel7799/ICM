@@ -408,7 +408,7 @@ $(document).ready(function() {
 			"energy" : 2,
 			"color" : "#000000"
 		}, {
-			"source" : "Equidad e Inclusión\n Social",
+			"source" : "Equidad e Inclusión Social",
 			"conteo" : "e",
 			"energy" : 2,
 			"color" : "#000000"
@@ -491,7 +491,7 @@ $(document).ready(function() {
 			"color" : "#000000",
 			"color2" : "#cccccc"
 		}, {
-			"source" : "Equidad e Inclusión\n Social",
+			"source" : "Equidad e Inclusión Social",
 			"conteo" : "e",
 			"energy" : 2,
 			"energy2" : 2,
@@ -2199,7 +2199,7 @@ $(document).ready(function() {
 				energy : value[0].cienciatecnologiaeinnovacion,
 				color : colory1
 			}, {
-				source : "Productividad, Competitividad\n y  Complementariedad económica",
+				source : "Productividad, Competitividad\n y Complementariedad económica",
 				conteo : "pr",
 				energy : value[0].productividadcompetitividadycomplementariedad,
 				color : colory2
@@ -2209,7 +2209,7 @@ $(document).ready(function() {
 				energy : value[0].pazterritorial,
 				color : colory3
 			}, {
-				source : "Equidad e Inclusión\n Social",
+				source : "Equidad e Inclusión Social",
 				conteo : "e",
 				energy : value[0].equidadeinclusion,
 				color : colory4
@@ -2225,7 +2225,7 @@ $(document).ready(function() {
 				color : colory6
 			}];
 			var comtipo = 'ciudades modernas';
-			$("#chartdiv3").append('<div class="campo"><span class="titulo_item"><strong>Indice de ' + comtipo + '</strong></span><span class="valor_item">' + value[0].icm  + '%</span></div>');
+			$("#chartdiv3").append('<div class="campo"><span class="titulo_item"><strong>Índice de ' + comtipo + '</strong></span><span class="valor_item">' + value[0].icm  + '%</span></div>');
 			$("#chartdiv3").append('<div class="campo"><strong>DIMENSIONES</strong></div>');
 			$.each(chartData, function(index, value2) {
 				$("#chartdiv3").append('<div class="campo"><span class="titulo_item">' + value2.source + '</span><span class="valor_item">' + value2.energy + '%</span></div>');
@@ -2313,7 +2313,7 @@ $(document).ready(function() {
 						energy : value.cienciatecnologiaeinnovacion,
 						color : colory1
 					}, {
-						source : "Productividad, Competitividad\n y  Complementariedad económica",
+						source : "Productividad, Competitividad\n y Complementariedad económica",
 						conteo : "pr",
 						energy : value.productividadcompetitividadycomplementariedad,
 						color : colory2
@@ -2323,7 +2323,7 @@ $(document).ready(function() {
 						energy : value.pazterritorial,
 						color : colory3
 					}, {
-						source : "Equidad e Inclusión\n Social",
+						source : "Equidad e Inclusión Social",
 						conteo : "e",
 						energy : value.equidadeinclusion,
 						color : colory4
@@ -2619,8 +2619,8 @@ $(document).ready(function() {
 				comtipo = 'ciudades modernas';
 			}
 
-			$("#chartdiv3").append('<div class="campo"><span class="titulo_item"><strong>Indice de ' + comtipo + '</strong></span><span class="valor_item">' + icmbvalor + '</span></div>');
-			$("#chartdiv3").append('<div class="campo"><strong>DIMENSIONES</strong></div>');
+			$("#chartdiv3").append('<div class="campo"><span class="titulo_item"><strong>Índice de ' + comtipo + '</strong></span><span class="valor_item">' + icmbvalor + '</span></div>');
+			$("#chartdiv3").append('<div class="campo" id="campodimensiones"><strong>DIMENSIONES</strong></div>');
 			$.each(chartData, function(index, value) {
 				$("#chartdiv3").append('<div class="campo"><span class="titulo_item">' + value.source + '</span><span class="valor_item">' + value.energy + '</span></div>');
 			})
@@ -2681,7 +2681,7 @@ $(document).ready(function() {
 					}
 					colorx=colorSelect(value.Departamento);
 					$(".ranking2").html("<div class='mun-tit' style='color:"+colorx+"'>" + value.ranking + "</div><br/>RANKING " + deftipo);
-					$(".municipio2").html("<div class='mun-tit'>" + destino + "</div><br/>" + tipo.toUpperCase() + ": " + value.Departamento);
+					$(".municipio2").html("<div class='mun-tit'>" + destino + "</div><br/>" + value.Departamento);
 					$(".titulo2").css("display", "block");
 					colory1 = colorSelect(chartData[0].energy);
 					colory2 = colorSelect(chartData[1].energy);
@@ -2717,7 +2717,7 @@ $(document).ready(function() {
 						color : colory3,
 						color2 : colory23
 					}, {
-						source : "Equidad e Inclusión\n Social",
+						source : "Equidad e Inclusión Social",
 						conteo : "e",
 						energy : chartData[3].energy,
 						energy2 : value.equidadeinclusion,

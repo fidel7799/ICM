@@ -83,8 +83,6 @@ var aglomeraciones = [{"A-Bogota, D.C.","Aglomeración de Bogotá, D.C."},
 						{"A-Cartagena","Aglomeración de Cartagena"},
 						{"A-Armenia","Aglomeración de Armenia"},
 						{"A-Girardot","Aglomeración de Girardot"},
-						{"A-Villavicencio","Aglomeración de Villavicencio"},	
+						{"A-Villavicencio","Aglomeración de Villavicencio"},
 						{"A-Cucuta","Aglomeración de Cúcuta"},
 						{"A-Tulua","Aglomeración de Tuluá"}]
-						
-
