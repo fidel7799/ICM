@@ -374,7 +374,7 @@ $(document).ready(function() {
 			"bullet" : "round",
 			"lineThickness" : 2,
 			"lineAlpha" : 1,
-			"lineColor" : "#e3bd7b",
+			"lineColor" : "#212121",
 			"minDistance" : 0,
 			"periodSpan" : 3,
 			"precision" : 1,
@@ -451,7 +451,7 @@ $(document).ready(function() {
 			"bullet" : "round",
 			"lineThickness" : 2,
 			"lineAlpha" : 1,
-			"lineColor" : "#e3bd7b",
+			"lineColor" : "#212121",
 			"gapPeriod" : 0,
 			"visibleLegend" : true/*,
 			 "colorField": "color"*/
@@ -461,7 +461,7 @@ $(document).ready(function() {
 			"balloonText" : "[[value]]%",
 			"lineAlpha" : 1,
 			"lineThickness" : 2,
-			"lineColor" : "#5aa1a2",
+			"lineColor" : "#878787",
 			"gapPeriod" : 0,
 			"visibleLegend" : true/*,
 			 "colorField": "color2"*/
