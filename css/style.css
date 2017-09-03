@@ -284,6 +284,9 @@ td {
 .titulo .cerrar img, .titulo2 .cerrar2 img {
  	max-width: 15px;
 }
+.cerrar, .cerrar2 {
+	text-align: center;
+}
 #campodimensiones {
 	padding-right: 20px;
 }
@@ -800,7 +803,7 @@ nav .button-collapse {
 .imgconvenciones{
 	  position: absolute;
     top: 70%;
-    left: 10%;
+    left: 5%;
 		width: 20%;
 		z-index: 100000;
 }
