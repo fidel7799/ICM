@@ -398,7 +398,7 @@ $(document).ready(function() {
 			"energy" : 2,
 			"color" : "#000000"
 		}, {
-			"source" : "Productividad, Competitividad\n y Complementariedad económica",
+			"source" : "Productividad, Competitividad\n y Complementariedad\n económica",
 			"conteo" : "pr",
 			"energy" : 2,
 			"color" : "#000000"
@@ -477,7 +477,7 @@ $(document).ready(function() {
 			"color" : "#000000",
 			"color2" : "#cccccc"
 		}, {
-			"source" : "Productividad, Competitividad\n y Complementariedad económica",
+			"source" : "Productividad, Competitividad\n y Complementariedad\n económica",
 			"conteo" : "pr",
 			"energy" : 2,
 			"energy2" : 2,
@@ -2199,7 +2199,7 @@ $(document).ready(function() {
 				energy : value[0].cienciatecnologiaeinnovacion,
 				color : colory1
 			}, {
-				source : "Productividad, Competitividad\n y Complementariedad económica",
+				source : "Productividad, Competitividad\n y Complementariedad\n económica",
 				conteo : "pr",
 				energy : value[0].productividadcompetitividadycomplementariedad,
 				color : colory2
@@ -2225,10 +2225,10 @@ $(document).ready(function() {
 				color : colory6
 			}];
 			var comtipo = 'ciudades modernas';
-			$("#chartdiv3").append('<div class="campo"><span class="titulo_item"><strong>Índice de ' + comtipo + '</strong></span><span class="valor_item">' + value[0].icm  + '%</span></div>');
+			$("#chartdiv3").append('<div class="campo"><span class="titulo_item"><strong>Índice de ' + comtipo + '</strong></span><span class="valor_item">' + value[0].icm  + '</span></div>');
 			$("#chartdiv3").append('<div class="campo"><strong>DIMENSIONES</strong></div>');
 			$.each(chartData, function(index, value2) {
-				$("#chartdiv3").append('<div class="campo"><span class="titulo_item">' + value2.source + '</span><span class="valor_item">' + value2.energy + '%</span></div>');
+				$("#chartdiv3").append('<div class="campo"><span class="titulo_item">' + value2.source + '</span><span class="valor_item">' + value2.energy + '</span></div>');
 			})
 			/*chart.dataProvider = chartData;
 			 chart.validateData( );
@@ -2313,7 +2313,7 @@ $(document).ready(function() {
 						energy : value.cienciatecnologiaeinnovacion,
 						color : colory1
 					}, {
-						source : "Productividad, Competitividad\n y Complementariedad económica",
+						source : "Productividad, Competitividad\n y Complementariedad\n económica",
 						conteo : "pr",
 						energy : value.productividadcompetitividadycomplementariedad,
 						color : colory2
@@ -2703,7 +2703,7 @@ $(document).ready(function() {
 						color : colory1,
 						color2 : colory21
 					}, {
-						source : "Productividad, Competitividad\n y Complementariedad económica",
+						source : "Productividad, Competitividad\n y Complementariedad\n económica",
 						conteo : "pr",
 						energy : chartData[1].energy,
 						energy2 : value.productividadcompetitividadycomplementariedad,
