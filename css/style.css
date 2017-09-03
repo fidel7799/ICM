@@ -811,7 +811,8 @@ nav .button-collapse {
 @media (max-width: 600px) {
 	.imgconvenciones {
 		width: 50%;
-		top: 400px;
+		top: 500px;
+		position: relative;
 	}
 @media (max-width: 500px) {
 	.imgconvenciones {
