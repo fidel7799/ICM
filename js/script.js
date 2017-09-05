@@ -370,7 +370,7 @@ $(document).ready(function() {
 		},
 		"graphs" : [{
 			"valueField" : "energy",
-			"balloonText" : "[[value]]%",
+			"balloonText" : "[[value]]",
 			"bullet" : "round",
 			"lineThickness" : 2,
 			"lineAlpha" : 1,
@@ -393,12 +393,12 @@ $(document).ready(function() {
 		"hideCredits" : true,
 
 		"dataProvider" : [{
-			"source" : "Ciencia,Tecnología\n e Innovación",
+			"source" : "Ciencia, Tecnología e Innovación",
 			"conteo" : "c",
 			"energy" : 2,
 			"color" : "#000000"
 		}, {
-			"source" : "Productividad, Competitividad\n y Complementariedad\n económica",
+			"source" : "Productividad, \nCompetitividad\n y Complementariedad\nEconómica",
 			"conteo" : "pr",
 			"energy" : 2,
 			"color" : "#000000"
@@ -413,7 +413,7 @@ $(document).ready(function() {
 			"energy" : 2,
 			"color" : "#000000"
 		}, {
-			"source " : "Gobernanza, Participación\n e Instituciones",
+			"source " : "Gobernanza, \nParticipación e \nInstituciones",
 			"conteo" : "g",
 			"energy" : 2,
 			"color" : "#000000"
@@ -447,7 +447,7 @@ $(document).ready(function() {
 		}],
 		"graphs" : [{
 			"valueField" : "energy",
-			"balloonText" : "[[value]]%",
+			"balloonText" : "[[value]]",
 			"bullet" : "round",
 			"lineThickness" : 2,
 			"lineAlpha" : 1,
@@ -458,7 +458,7 @@ $(document).ready(function() {
 		}, {
 			"bullet" : "round",
 			"valueField" : "energy2",
-			"balloonText" : "[[value]]%",
+			"balloonText" : "[[value]]",
 			"lineAlpha" : 1,
 			"lineThickness" : 2,
 			"lineColor" : "#878787",
@@ -470,14 +470,14 @@ $(document).ready(function() {
 		"hideCredits" : true,
 
 		"dataProvider" : [{
-			"source" : "Ciencia,Tecnología\n e Innovación",
+			"source" : "Ciencia, Tecnología e Innovación",
 			"conteo" : "c",
 			"energy" : 2,
 			"energy2" : 2,
 			"color" : "#000000",
 			"color2" : "#cccccc"
 		}, {
-			"source" : "Productividad, Competitividad\n y Complementariedad\n económica",
+			"source" : "Productividad, \nCompetitividad\n y Complementariedad\nEconómica",
 			"conteo" : "pr",
 			"energy" : 2,
 			"energy2" : 2,
@@ -498,7 +498,7 @@ $(document).ready(function() {
 			"color" : "#000000",
 			"color2" : "#cccccc"
 		}, {
-			"source" : "Gobernanza, Participación\n e Instituciones",
+			"source" : "Gobernanza, \nParticipación e \nInstituciones",
 			"conteo" : "g",
 			"energy" : 2,
 			"energy2" : 2,
@@ -543,7 +543,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Numero de grupos de investigación equivalentes a A1 Colciencias.(2014) <b>[[value]]%</b>",
+			"balloonText" : "Numero de grupos de investigación equivalentes a A1 Colciencias.(2014) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -553,7 +553,7 @@ $(document).ready(function() {
 			"fillColorsField" : "color",
 			"visibleLegend" : true
 		}, {
-			"balloonText" : "Número de universidades Acreditadas en Alta calidad.(2014) <b>[[value]]%</b>",
+			"balloonText" : "Número de universidades Acreditadas en Alta calidad.(2014) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -603,7 +603,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Acceso a Internet por ancho de banda.(2015) <b>[[value]]%</b>",
+			"balloonText" : "Acceso a Internet por ancho de banda.(2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -613,7 +613,7 @@ $(document).ready(function() {
 			"fillColorsField" : "color",
 			"visibleLegend" : true
 		}, {
-			"balloonText" : "Promedio de estudiantes por computador en colegios oficiales.(2015) <b>[[value]]%</b>",
+			"balloonText" : "Promedio de estudiantes por computador en colegios oficiales.(2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -663,7 +663,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Grado de importancia económica.(2014) <b>[[value]]%</b>",
+			"balloonText" : "Grado de importancia económica.(2014) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -673,7 +673,7 @@ $(document).ready(function() {
 			"fillColorsField" : "color",
 			"visibleLegend" : true
 		}, {
-			"balloonText" : " Valor agregado por  Kilometro cuadrado.(2014) <b>[[value]]%</b>",
+			"balloonText" : " Valor agregado por  Kilometro cuadrado.(2014) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -727,7 +727,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Conectividad física.(2016) <b>[[value]]%</b>",
+			"balloonText" : "Conectividad física.(2016) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -736,7 +736,7 @@ $(document).ready(function() {
 			"valueField" : "co1",
 			"fillColorsField" : "color"
 		}, {
-			"balloonText" : " Transporte aéreo según categoría de aeropuerto. <b>[[value]]%</b>",
+			"balloonText" : " Transporte aéreo según categoría de aeropuerto. <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -745,7 +745,7 @@ $(document).ready(function() {
 			"valueField" : "co2",
 			"fillColorsField" : "color2"
 		}, {
-			"balloonText" : "Cantidad de carga transportada por carretera. (Toneladas por kilómetro) <b>[[value]]%</b>",
+			"balloonText" : "Cantidad de carga transportada por carretera. (Toneladas por kilómetro) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -754,7 +754,7 @@ $(document).ready(function() {
 			"valueField" : "co3",
 			"fillColorsField" : "color3"
 		}, {
-			"balloonText" : "Muertes promedio en accidentes de tránsito por cada 100 mil habitantes. <b>[[value]]%</b>",
+			"balloonText" : "Muertes promedio en accidentes de tránsito por cada 100 mil habitantes. <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -803,7 +803,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Categoría de ruralidad.(2015) <b>[[value]]%</b>",
+			"balloonText" : "Categoría de ruralidad.(2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -813,7 +813,7 @@ $(document).ready(function() {
 			"fillColorsField" : "color",
 			"visibleLegend" : true
 		}, {
-			"balloonText" : "Puntaje de las relaciones unidireccionales y bidireccionales de carga terrestre. <b>[[value]]%</b>",
+			"balloonText" : "Puntaje de las relaciones unidireccionales y bidireccionales de carga terrestre. <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -866,7 +866,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Número de casos de minas antipersonas por cada 100 mil Hab. (2011-2015) <b>[[value]]%</b>",
+			"balloonText" : "Número de casos de minas antipersonas por cada 100 mil Hab. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -875,7 +875,7 @@ $(document).ready(function() {
 			"valueField" : "ic1",
 			"fillColorsField" : "color"
 		}, {
-			"balloonText" : "Número de victimas de secuestro por cada 100 mil Hab. (2011-2015) <b>[[value]]%</b>",
+			"balloonText" : "Número de victimas de secuestro por cada 100 mil Hab. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -884,7 +884,7 @@ $(document).ready(function() {
 			"valueField" : "ic2",
 			"fillColorsField" : "color2"
 		}, {
-			"balloonText" : "Número de población desplazada por cada 100 mil Hab. (2011-2015) <b>[[value]]%</b>",
+			"balloonText" : "Número de población desplazada por cada 100 mil Hab. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -893,7 +893,7 @@ $(document).ready(function() {
 			"valueField" : "ic3",
 			"fillColorsField" : "color3"
 		}, {
-			"balloonText" : "% del área del municipio sembrada con hoja de coca (2015). <b>[[value]]%</b>",
+			"balloonText" : "% del área del municipio sembrada con hoja de coca (2015). <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -944,7 +944,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Número de lesiones y agresiones entre personas por cada 100 mil Hab. (2011-2015) <b>[[value]]%</b>",
+			"balloonText" : "Número de lesiones y agresiones entre personas por cada 100 mil Hab. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.40,
@@ -953,7 +953,7 @@ $(document).ready(function() {
 			"valueField" : "s1",
 			"fillColorsField" : "color"
 		}, {
-			"balloonText" : "Número de homicidios por cada 100 mil Hab. (2011-2015) <b>[[value]]%</b>",
+			"balloonText" : "Número de homicidios por cada 100 mil Hab. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.40,
@@ -962,7 +962,7 @@ $(document).ready(function() {
 			"valueField" : "s2",
 			"fillColorsField" : "color2"
 		}, {
-			"balloonText" : "Número de hurtos comunes por cada 100 mil Hab. ( 2011-2015) <b>[[value]]%</b>",
+			"balloonText" : "Número de hurtos comunes por cada 100 mil Hab. ( 2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.40,
@@ -1013,7 +1013,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Pertenece a esquemas asociativos <b>[[value]]%</b>",
+			"balloonText" : "Pertenece a esquemas asociativos <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.50,
@@ -1022,7 +1022,7 @@ $(document).ready(function() {
 			"valueField" : "gob1",
 			"fillColorsField" : "color"
 		}, {
-			"balloonText" : "Usufructo de acueducto alcantarillado regional. <b>[[value]]%</b>",
+			"balloonText" : "Usufructo de acueducto alcantarillado regional. <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.50,
@@ -1031,7 +1031,7 @@ $(document).ready(function() {
 			"valueField" : "gob2",
 			"fillColorsField" : "color2"
 		}, {
-			"balloonText" : "Pertenencia al circuito de transporte publico. <b>[[value]]%</b>",
+			"balloonText" : "Pertenencia al circuito de transporte publico. <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.50,
@@ -1078,7 +1078,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Tasa de participación electoral alcaldía (2011 y 2015) <b>[[value]]%</b>",
+			"balloonText" : "Tasa de participación electoral alcaldía (2011 y 2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.13,
@@ -1131,7 +1131,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : " Tasa promedio de sentencias de delitos contra la administración pública por cada 100 mil habitantes. (2011 - 2015) <b>[[value]]%</b>",
+			"balloonText" : " Tasa promedio de sentencias de delitos contra la administración pública por cada 100 mil habitantes. (2011 - 2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1140,7 +1140,7 @@ $(document).ready(function() {
 			"valueField" : "fo1",
 			"fillColorsField" : "color"
 		}, {
-			"balloonText" : "Promedio tasa de recaudo tributación predial por predio. (2013 - 2015) <b>[[value]]%</b>",
+			"balloonText" : "Promedio tasa de recaudo tributación predial por predio. (2013 - 2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1149,7 +1149,7 @@ $(document).ready(function() {
 			"valueField" : "fo2",
 			"fillColorsField" : "color2"
 		}, {
-			"balloonText" : "Participación de los recursos propios en la inversión total. (2014 y 2015) <b>[[value]]%</b>",
+			"balloonText" : "Participación de los recursos propios en la inversión total. (2014 y 2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1158,7 +1158,7 @@ $(document).ready(function() {
 			"valueField" : "fo3",
 			"fillColorsField" : "color3"
 		}, {
-			"balloonText" : "Estado de actualización catastro urbano y rural. (2015) <b>[[value]]%</b>",
+			"balloonText" : "Estado de actualización catastro urbano y rural. (2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1207,7 +1207,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Proporción de hectáreas en RUNAP o Ecosistemas Estratégicos. <b>[[value]]%</b>",
+			"balloonText" : "Proporción de hectáreas en RUNAP o Ecosistemas Estratégicos. <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -1216,7 +1216,7 @@ $(document).ready(function() {
 			"valueField" : "cn1",
 			"fillColorsField" : "color"
 		}, {
-			"balloonText" : "Proporción de hectáreas de bosques deforestadas del Municipio respecto a su departamento. <b>[[value]]%</b>",
+			"balloonText" : "Proporción de hectáreas de bosques deforestadas del Municipio respecto a su departamento. <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -1269,7 +1269,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "PM10 <b>[[value]]%</b>",
+			"balloonText" : "PM10 <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1278,7 +1278,7 @@ $(document).ready(function() {
 			"valueField" : "cua1",
 			"fillColorsField" : "color"
 		}, {
-			"balloonText" : "Porcentaje de caudal tratado de aguas residuales. <b>[[value]]%</b>",
+			"balloonText" : "Porcentaje de caudal tratado de aguas residuales. <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1287,7 +1287,7 @@ $(document).ready(function() {
 			"valueField" : "cua2",
 			"fillColorsField" : "color2"
 		}, {
-			"balloonText" : "Residuos sólidos. <b>[[value]]%</b>",
+			"balloonText" : "Residuos sólidos. <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1296,7 +1296,7 @@ $(document).ready(function() {
 			"valueField" : "cua3",
 			"fillColorsField" : "color3"
 		}, {
-			"balloonText" : "Uso adecuado del suelo agrícola. <b>[[value]]%</b>",
+			"balloonText" : "Uso adecuado del suelo agrícola. <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1343,7 +1343,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Índice de pobreza multidimensional. (2005) <b>[[value]]%</b>",
+			"balloonText" : "Índice de pobreza multidimensional. (2005) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -1392,7 +1392,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Tasa de mortalidad infantil por cada 1.000 niños (todos las causas de muerte menos desnutrición). (2015) <b>[[value]]%</b>",
+			"balloonText" : "Tasa de mortalidad infantil por cada 1.000 niños (todos las causas de muerte menos desnutrición). (2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1401,7 +1401,7 @@ $(document).ready(function() {
 			"valueField" : "sa1",
 			"fillColorsField" : "color"
 		}, {
-			"balloonText" : "Promedio IRCA. (2014-2015) <b>[[value]]%</b>",
+			"balloonText" : "Promedio IRCA. (2014-2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1450,7 +1450,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Calidad de la educación - % de colegios según categoría de desempeño. (2015) <b>[[value]]%</b>",
+			"balloonText" : "Calidad de la educación - % de colegios según categoría de desempeño. (2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1459,7 +1459,7 @@ $(document).ready(function() {
 			"valueField" : "ed1",
 			"fillColorsField" : "color"
 		}, {
-			"balloonText" : "Tasa de cobertura de educación. (2015) <b>[[value]]%</b>",
+			"balloonText" : "Tasa de cobertura de educación. (2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1507,7 +1507,7 @@ $(document).ready(function() {
 		}],
 		"startDuration" : 1,
 		"graphs" : [{
-			"balloonText" : "Promedio de personas afectadas y fallecidas y viviendas destruidas por evento en desastres asociados a fenómenos naturales (por cada 100.000 habitantes). (2011-2015) <b>[[value]]%</b>",
+			"balloonText" : "Promedio de personas afectadas y fallecidas y viviendas destruidas por evento en desastres asociados a fenómenos naturales (por cada 100.000 habitantes). (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -1516,7 +1516,7 @@ $(document).ready(function() {
 			"valueField" : "adr1",
 			"fillColorsField" : "color"
 		}, {
-			"balloonText" : "Promedio de inversión en gestión de riesgo como proporción de la inversión total. (2011-2015) <b>[[value]]%</b>",
+			"balloonText" : "Promedio de inversión en gestión de riesgo como proporción de la inversión total. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.30,
@@ -2194,12 +2194,12 @@ $(document).ready(function() {
 			colory5 = colorSelect(value[0].gobernanzaparticipacioneinstituciones);
 			colory6 = colorSelect(value[0].sostenibilidad);
 			chartData = [{
-				source : "Ciencia,Tecnología\n e Innovación",
+				source : "Ciencia, Tecnología e Innovación",
 				conteo : "c",
 				energy : value[0].cienciatecnologiaeinnovacion,
 				color : colory1
 			}, {
-				source : "Productividad, Competitividad\n y Complementariedad\n económica",
+				source : "Productividad, \nCompetitividad\n y Complementariedad\nEconómica",
 				conteo : "pr",
 				energy : value[0].productividadcompetitividadycomplementariedad,
 				color : colory2
@@ -2214,7 +2214,7 @@ $(document).ready(function() {
 				energy : value[0].equidadeinclusion,
 				color : colory4
 			}, {
-				source : "Gobernanza, Participación\n e Instituciones",
+				source : "Gobernanza, \nParticipación e \nInstituciones",
 				conteo : "g",
 				energy : value[0].gobernanzaparticipacioneinstituciones,
 				color : colory5
@@ -2308,12 +2308,12 @@ $(document).ready(function() {
 					colory5 = colorSelect(value.gobernanzaparticipacioneinstituciones);
 					colory6 = colorSelect(value.sostenibilidad);
 					chartData = [{
-						source : "Ciencia,Tecnología\n e Innovación",
+						source : "Ciencia, Tecnología e Innovación",
 						conteo : "c",
 						energy : value.cienciatecnologiaeinnovacion,
 						color : colory1
 					}, {
-						source : "Productividad, Competitividad\n y Complementariedad\n económica",
+						source : "Productividad, \nCompetitividad y \nComplementariedad\nEconómica",
 						conteo : "pr",
 						energy : value.productividadcompetitividadycomplementariedad,
 						color : colory2
@@ -2328,7 +2328,7 @@ $(document).ready(function() {
 						energy : value.equidadeinclusion,
 						color : colory4
 					}, {
-						source : "Gobernanza, Participación\n e Instituciones",
+						source : "Gobernanza, \nParticipación e \nInstituciones",
 						conteo : "g",
 						energy : value.gobernanzaparticipacioneinstituciones,
 						color : colory5
@@ -2696,14 +2696,14 @@ $(document).ready(function() {
 					colory25 = colorSelect(value.gobernanzaparticipacioneinstituciones);
 					colory26 = colorSelect(value.sostenibilidad);
 					chartDataC = [{
-						source : "Ciencia,Tecnología\n e Innovación",
+						source : "Ciencia, Tecnología e Innovación",
 						conteo : "c",
 						energy : chartData[0].energy,
 						energy2 : value.cienciatecnologiaeinnovacion,
 						color : colory1,
 						color2 : colory21
 					}, {
-						source : "Productividad, Competitividad\n y Complementariedad\n económica",
+						source : "Productividad, \nCompetitividad y \nComplementariedad\nEconómica",
 						conteo : "pr",
 						energy : chartData[1].energy,
 						energy2 : value.productividadcompetitividadycomplementariedad,
@@ -2724,7 +2724,7 @@ $(document).ready(function() {
 						color : colory4,
 						color2 : colory24
 					}, {
-						source : "Gobernanza, Participación\n e Instituciones",
+						source : "Gobernanza, \nParticipación e \nInstituciones",
 						conteo : "g",
 						energy : chartData[4].energy,
 						energy2 : value.gobernanzaparticipacioneinstituciones,
