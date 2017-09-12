@@ -374,7 +374,7 @@ $(document).ready(function() {
 			"bullet" : "round",
 			"lineThickness" : 2,
 			"lineAlpha" : 1,
-			"lineColor" : "#212121",
+			"lineColor" : "#4D8DC6",
 			"minDistance" : 0,
 			"periodSpan" : 3,
 			"precision" : 1,
@@ -398,7 +398,7 @@ $(document).ready(function() {
 			"energy" : 2,
 			"color" : "#000000"
 		}, {
-			"source" : "Productividad, \nCompetitividad\n y Complementariedad\nEconómica",
+			"source" : "Productividad, \nCompetitividad y \nComplementariedad\nEconómica",
 			"conteo" : "pr",
 			"energy" : 2,
 			"color" : "#000000"
@@ -451,7 +451,7 @@ $(document).ready(function() {
 			"bullet" : "round",
 			"lineThickness" : 2,
 			"lineAlpha" : 1,
-			"lineColor" : "#212121",
+			"lineColor" : "#4D8DC6",
 			"gapPeriod" : 0,
 			"visibleLegend" : true/*,
 			 "colorField": "color"*/
@@ -477,7 +477,7 @@ $(document).ready(function() {
 			"color" : "#000000",
 			"color2" : "#cccccc"
 		}, {
-			"source" : "Productividad, \nCompetitividad\n y Complementariedad\nEconómica",
+			"source" : "Productividad, \nCompetitividad y \nComplementariedad\nEconómica",
 			"conteo" : "pr",
 			"energy" : 2,
 			"energy2" : 2,
@@ -532,7 +532,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -546,7 +546,7 @@ $(document).ready(function() {
 			"balloonText" : "Numero de grupos de investigación equivalentes a A1 Colciencias.(2014) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada final",
 			"type" : "column",
 			"valueField" : "c1",
@@ -556,7 +556,7 @@ $(document).ready(function() {
 			"balloonText" : "Número de universidades Acreditadas en Alta calidad.(2014) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.70,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "c2",
@@ -592,7 +592,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -606,7 +606,7 @@ $(document).ready(function() {
 			"balloonText" : "Acceso a Internet por ancho de banda.(2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada final",
 			"type" : "column",
 			"valueField" : "t1",
@@ -616,7 +616,7 @@ $(document).ready(function() {
 			"balloonText" : "Promedio de estudiantes por computador en colegios oficiales.(2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.70,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "t2",
@@ -652,7 +652,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -666,7 +666,7 @@ $(document).ready(function() {
 			"balloonText" : "Grado de importancia económica.(2014) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "p1",
@@ -676,7 +676,7 @@ $(document).ready(function() {
 			"balloonText" : " Valor agregado por  Kilometro cuadrado.(2014) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "p2",
@@ -716,7 +716,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -730,7 +730,7 @@ $(document).ready(function() {
 			"balloonText" : "Conectividad física.(2016) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada final",
 			"type" : "column",
 			"valueField" : "co1",
@@ -739,7 +739,7 @@ $(document).ready(function() {
 			"balloonText" : " Transporte aéreo según categoría de aeropuerto. <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "co2",
@@ -748,7 +748,7 @@ $(document).ready(function() {
 			"balloonText" : "Cantidad de carga transportada por carretera. (Toneladas por kilómetro) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "co3",
@@ -757,7 +757,7 @@ $(document).ready(function() {
 			"balloonText" : "Muertes promedio en accidentes de tránsito por cada 100 mil habitantes. <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "co4",
@@ -792,7 +792,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -806,7 +806,7 @@ $(document).ready(function() {
 			"balloonText" : "Categoría de ruralidad.(2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "com1",
@@ -816,7 +816,7 @@ $(document).ready(function() {
 			"balloonText" : "Puntaje de las relaciones unidireccionales y bidireccionales de carga terrestre. <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "com2",
@@ -855,7 +855,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -869,7 +869,7 @@ $(document).ready(function() {
 			"balloonText" : "Número de casos de minas antipersonas por cada 100 mil Hab. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada final",
 			"type" : "column",
 			"valueField" : "ic1",
@@ -878,7 +878,7 @@ $(document).ready(function() {
 			"balloonText" : "Número de victimas de secuestro por cada 100 mil Hab. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "ic2",
@@ -887,7 +887,7 @@ $(document).ready(function() {
 			"balloonText" : "Número de población desplazada por cada 100 mil Hab. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "ic3",
@@ -896,7 +896,7 @@ $(document).ready(function() {
 			"balloonText" : "% del área del municipio sembrada con hoja de coca (2015). <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "ic4",
@@ -933,7 +933,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -947,7 +947,7 @@ $(document).ready(function() {
 			"balloonText" : "Número de lesiones y agresiones entre personas por cada 100 mil Hab. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.40,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada final",
 			"type" : "column",
 			"valueField" : "s1",
@@ -956,7 +956,7 @@ $(document).ready(function() {
 			"balloonText" : "Número de homicidios por cada 100 mil Hab. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.40,
+			"columnWidth": 0.70,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "s2",
@@ -965,7 +965,7 @@ $(document).ready(function() {
 			"balloonText" : "Número de hurtos comunes por cada 100 mil Hab. ( 2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.40,
+			"columnWidth": 0.70,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "s3",
@@ -1002,7 +1002,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -1016,7 +1016,7 @@ $(document).ready(function() {
 			"balloonText" : "Pertenece a esquemas asociativos <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.50,
+			"columnWidth": 0.80,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "gob1",
@@ -1025,7 +1025,7 @@ $(document).ready(function() {
 			"balloonText" : "Usufructo de acueducto alcantarillado regional. <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.50,
+			"columnWidth": 0.80,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "gob2",
@@ -1034,7 +1034,7 @@ $(document).ready(function() {
 			"balloonText" : "Pertenencia al circuito de transporte publico. <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.50,
+			"columnWidth": 0.80,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "gob3",
@@ -1067,7 +1067,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -1081,7 +1081,7 @@ $(document).ready(function() {
 			"balloonText" : "Tasa de participación electoral alcaldía (2011 y 2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.13,
+			"columnWidth": 0.50,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "par1",
@@ -1120,7 +1120,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -1134,7 +1134,7 @@ $(document).ready(function() {
 			"balloonText" : " Tasa promedio de sentencias de delitos contra la administración pública por cada 100 mil habitantes. (2011 - 2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.80,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "fo1",
@@ -1143,7 +1143,7 @@ $(document).ready(function() {
 			"balloonText" : "Promedio tasa de recaudo tributación predial por predio. (2013 - 2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.80,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "fo2",
@@ -1152,7 +1152,7 @@ $(document).ready(function() {
 			"balloonText" : "Participación de los recursos propios en la inversión total. (2014 y 2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.80,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "fo3",
@@ -1161,7 +1161,7 @@ $(document).ready(function() {
 			"balloonText" : "Estado de actualización catastro urbano y rural. (2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.80,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "fo4",
@@ -1196,7 +1196,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -1210,7 +1210,7 @@ $(document).ready(function() {
 			"balloonText" : "Proporción de hectáreas en RUNAP o Ecosistemas Estratégicos. <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "cn1",
@@ -1219,7 +1219,7 @@ $(document).ready(function() {
 			"balloonText" : "Proporción de hectáreas de bosques deforestadas del Municipio respecto a su departamento. <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "cn2",
@@ -1258,7 +1258,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -1272,7 +1272,7 @@ $(document).ready(function() {
 			"balloonText" : "PM10 <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.80,
 			"title" : "Estandarizada final",
 			"type" : "column",
 			"valueField" : "cua1",
@@ -1281,7 +1281,7 @@ $(document).ready(function() {
 			"balloonText" : "Porcentaje de caudal tratado de aguas residuales. <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.80,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "cua2",
@@ -1290,7 +1290,7 @@ $(document).ready(function() {
 			"balloonText" : "Residuos sólidos. <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.80,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "cua3",
@@ -1299,7 +1299,7 @@ $(document).ready(function() {
 			"balloonText" : "Uso adecuado del suelo agrícola. <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.80,
 			"title" : "Número de universidades",
 			"type" : "column",
 			"valueField" : "cua4",
@@ -1332,7 +1332,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -1346,7 +1346,7 @@ $(document).ready(function() {
 			"balloonText" : "Índice de pobreza multidimensional. (2005) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.60,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "po1",
@@ -1381,7 +1381,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -1395,7 +1395,7 @@ $(document).ready(function() {
 			"balloonText" : "Tasa de mortalidad infantil por cada 1.000 niños (todos las causas de muerte menos desnutrición). (2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "sa1",
@@ -1404,7 +1404,7 @@ $(document).ready(function() {
 			"balloonText" : "Promedio IRCA. (2014-2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "sa2",
@@ -1439,7 +1439,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -1453,7 +1453,7 @@ $(document).ready(function() {
 			"balloonText" : "Calidad de la educación - % de colegios según categoría de desempeño. (2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "ed1",
@@ -1462,7 +1462,7 @@ $(document).ready(function() {
 			"balloonText" : "Tasa de cobertura de educación. (2015) <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
+			"columnWidth": 0.70,
 			"title" : "Estandarizada",
 			"type" : "column",
 			"valueField" : "ed2",
@@ -1496,7 +1496,7 @@ $(document).ready(function() {
 			"fixedPosition" : false
 		},
 		"valueAxes" : [{
-			"unit" : "%",
+
 			"position" : "left",
 			"title" : "",
 			"maximum" : 100,
@@ -1510,7 +1510,7 @@ $(document).ready(function() {
 			"balloonText" : "Promedio de personas afectadas y fallecidas y viviendas destruidas por evento en desastres asociados a fenómenos naturales (por cada 100.000 habitantes). (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.80,
 			"title" : "Estandarizada final",
 			"type" : "column",
 			"valueField" : "adr1",
@@ -1519,7 +1519,7 @@ $(document).ready(function() {
 			"balloonText" : "Promedio de inversión en gestión de riesgo como proporción de la inversión total. (2011-2015) <b>[[value]]</b>",
 			"fillAlphas" : 0.9,
 			"lineAlpha" : 0.2,
-			"columnWidth": 0.30,
+			"columnWidth": 0.80,
 			"title" : "Estandarizada final",
 			"type" : "column",
 			"valueField" : "adr2",
@@ -2199,7 +2199,7 @@ $(document).ready(function() {
 				energy : value[0].cienciatecnologiaeinnovacion,
 				color : colory1
 			}, {
-				source : "Productividad, \nCompetitividad\n y Complementariedad\nEconómica",
+				source : "Productividad, \nCompetitividad y \nComplementariedad\nEconómica",
 				conteo : "pr",
 				energy : value[0].productividadcompetitividadycomplementariedad,
 				color : colory2

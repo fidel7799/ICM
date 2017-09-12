@@ -257,7 +257,7 @@ td {
 	line-height: 36px;
 }
 .titulos .municipio .mun-tit {
-	color: Black;
+	color: #4D8DC6;
 	text-align: left;
 }
 .titulos2 .municipio2 .mun-tit {
@@ -821,12 +821,13 @@ nav .button-collapse {
 @media (max-width: 600px) {
 	.imgconvenciones {
 		width: 50%;
-		top: 500px;
+		top: 300px;
 		position: relative;
 	}
 @media (max-width: 500px) {
 	.imgconvenciones {
 		width: 50%;
+		top: 300px;
 	}
 @media only screen and (min-width: 601px) {
 	.container {
