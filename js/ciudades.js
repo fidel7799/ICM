@@ -14817,6 +14817,30 @@ var ciudades = [
     "adr2": 11,
     "gob3": 1
   },
+  /* AGLOMERACIONES */
+  {
+    "relacion": "CO-NSA",
+    "Departamento": "Norte de Santander",
+    "municipio": "NortedeSantander",
+    "nombre": "Aglomeración de Cucuta",
+    "id": 30175,
+    "lat": "0",
+    "long": "0",
+    "tipo": "municipio",
+    "Aglomeracion-i": "A-Cucuta",
+    "aglomeracion": "A-Cucuta",
+    "seccion": "normal",
+    "icm": 39,
+    "adaptabilidadyresiliencia": 0,
+    "sostenibilidad": 24,
+    "pazterritorial": 24,
+    "equidadeinclusion": 56,
+    "gobernanzaparticipacioneinstituciones": 54,
+    "cienciatecnologiaeinnovacion": 27,
+    "productividadcompetitividadycomplementariedad": 47,
+    "ranking": 17
+  },
+  /* FIN DE AGLOMERACIONES */
   {
     "relacion": "CO-BPY",
     "Departamento": "Boyacá",
