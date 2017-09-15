@@ -269,13 +269,19 @@ $.each(ciudades, function(key, val) {
 		item["value"] = val.ranking.toString();
 		///////
 		if (val.icm <= 100) {
+			item["color"] = "#036B68"
+		}
+    if (val.icm < 80) {
 			item["color"] = "#00A3A4"
 		}
 		if (val.icm < 60) {
-			item["color"] = "#E2A84C"
+			item["color"] = "#F2AD47"
 		}
 		if (val.icm < 40) {
-			item["color"] = "#C3324E"
+			item["color"] = "#FF5F33"
+		}
+    if (val.icm < 25) {
+			item["color"] = "#E5304E"
 		}
 		item["latitude"] = val.lat.replace(",", ".");
 		item["longitude"] = val.long.replace(",", ".");
@@ -293,15 +299,21 @@ $.each(ciudades, function(key, val) {
 	item["name"] = val.nombre;
 	item["value"] = val.id.toString();
 	///////
-	if (val.icm <= 100) {
-		item["color"] = "#00A3A4"
-	}
-	if (val.icm < 60) {
-		item["color"] = "#E2A84C"
-	}
-	if (val.icm < 40) {
-		item["color"] = "#C3324E"
-	}
+  if (val.icm <= 100) {
+    item["color"] = "#036B68"
+  }
+  if (val.icm < 80) {
+    item["color"] = "#00A3A4"
+  }
+  if (val.icm < 60) {
+    item["color"] = "#F2AD47"
+  }
+  if (val.icm < 40) {
+    item["color"] = "#FF5F33"
+  }
+  if (val.icm < 25) {
+    item["color"] = "#E5304E"
+  }
 	item["latitude"] = val.lat.replace(",", ".");
 	item["longitude"] = val.long.replace(",", ".");
 	item["municipio"] = val.municipio;
