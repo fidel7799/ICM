@@ -2198,7 +2198,7 @@ $(document).ready(function() {
 			$("#chartdiv3").html("");
 			$("#chartdiv1").html("");
 			$(".municipio").html("<div class='mun-tit'>" + value[0].valor + "</div>");
-			$(".ranking").html("<div class='mun-tit'>" + value[0].ranking + "</div><br/>RANKING ");
+			$(".ranking").html("<div class='mun-tit'>" + value[0].ranking + "/18</div><br>RANKING ");
 			colory1 = colorSelect(value[0].cienciatecnologiaeinnovacion);
 			colory2 = colorSelect(value[0].productividadcompetitividadycomplementariedad);
 			colory3 = colorSelect(value[0].pazterritorial);
