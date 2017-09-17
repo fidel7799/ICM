@@ -38,6 +38,18 @@
 						<a href="#!" data-activates="mobile-demo" class="button-collapse col s6"><i class="material-icons">menu</i></a>
 						<ul id="nav-mobile" class="right hide-on-med-and-down">
 							<li>
+							<div class="dropdown">
+								<span><i class="material-icons">help</i></span>
+								<div class="dropdown-content">
+									<p>Este es un mapa interactivo donde usted podrá comparar dos aglomeraciones, ciudades o municipios. El presente está conformado por:<strong><br>
+										- 18 aglomeraciones<br>
+										- 38 ciudades uninodales<br>
+										- 151 ciudades que pertenecen al Sistema de Ciudades<br>
+										- 951 municipios que no pertenecen al Sistema de Ciudades</strong></p>
+								</div>
+							</div>
+							<li>
+							<li>
 								<a href="index.html" class="menutop">INICIO</a>
 							</li>
 							<li>
@@ -49,16 +61,6 @@
 							<li>
 								<a href="docs/icm.xls" target="_blank" class="descarga">EXCEL</a>
 							</li>
-								<div class="dropdown">
-									<span><i class="material-icons">help</i></span>
-								  <div class="dropdown-content">
-								    <p>Este es un mapa interactivo donde usted podrá comparar dos aglomeraciones, ciudades o municipios. El presente está conformado por:<strong><br>
-											- 18 aglomeraciones<br>
-											- 38 ciudades uninodales<br>
-											- 151 ciudades que pertenecen al Sistema de Ciudades<br>
-											- 951 municipios que no pertenecen al Sistema de Ciudades</strong></p>
-								  </div>
-								</div>
 						</ul>
 						<ul class="side-nav" id="mobile-demo">
 							<li>
@@ -281,6 +283,10 @@
     },
 
 		list: {
+		onChooseEvent: function() {
+			var selectedItemValue = $("#autocomplete").getElementsByName('js/script.js')
+			$("#ciudades").val(selectedItemValue);
+		},
 		maxNumberOfElements: 8,
 		match: {
 			enabled: true
