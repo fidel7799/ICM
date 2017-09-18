@@ -277,8 +277,8 @@ td {
 }
 .titulo .cerrar, .titulo2 .cerrar2 {
 	position: absolute;
-	right: -10px;
-	top: 15px;
+	right: -7px;
+	top: 11px;
 	display: block;
 	font-size: 30px;
 	color: #f1ac46;

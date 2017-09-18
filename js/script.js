@@ -32,7 +32,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 59,
     "cienciatecnologiaeinnovacion": 17,
     "productividadcompetitividadycomplementariedad": 54,
-    "ranking": 7
+    "ranking": "7/18"
   },
   {
     "name": "A-Bogota,D.C.",
@@ -46,7 +46,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 54,
     "cienciatecnologiaeinnovacion": 64,
     "productividadcompetitividadycomplementariedad": 74,
-    "ranking": 1
+    "ranking": "1/18"
   },
   {
     "name": "A-Bucaramanga",
@@ -60,7 +60,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 74,
     "cienciatecnologiaeinnovacion": 18,
     "productividadcompetitividadycomplementariedad": 51,
-    "ranking": 3
+    "ranking": "3/18"
   },
   {
     "name": "A-Cali",
@@ -74,7 +74,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 57,
     "cienciatecnologiaeinnovacion": 31,
     "productividadcompetitividadycomplementariedad": 63,
-    "ranking": 4
+    "ranking": "4/18"
   },
   {
     "name": "A-Cartagena",
@@ -88,7 +88,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 48,
     "cienciatecnologiaeinnovacion": 19,
     "productividadcompetitividadycomplementariedad": 54,
-    "ranking": 13
+    "ranking": "13/18"
   },
   {
     "name": "A-Cucuta",
@@ -102,7 +102,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 54,
     "cienciatecnologiaeinnovacion": 27,
     "productividadcompetitividadycomplementariedad": 47,
-    "ranking": 17
+    "ranking": "17/18"
   },
   {
     "name": "A-Duitama",
@@ -116,7 +116,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 46,
     "cienciatecnologiaeinnovacion": 17,
     "productividadcompetitividadycomplementariedad": 44,
-    "ranking": 9
+    "ranking": "9/18"
   },
   {
     "name": "A-Girardot",
@@ -130,7 +130,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 45,
     "cienciatecnologiaeinnovacion": 17,
     "productividadcompetitividadycomplementariedad": 38,
-    "ranking": 15
+    "ranking": "15/18"
   },
   {
     "name": "A-Manizales",
@@ -144,7 +144,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 51,
     "cienciatecnologiaeinnovacion": 29,
     "productividadcompetitividadycomplementariedad": 46,
-    "ranking": 6
+    "ranking": "6/18"
   },
   {
     "name": "A-Medellin",
@@ -158,7 +158,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 66,
     "cienciatecnologiaeinnovacion": 38,
     "productividadcompetitividadycomplementariedad": 60,
-    "ranking": 2
+    "ranking": "2/18"
   },
   {
     "name": "A-Pasto",
@@ -172,7 +172,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 45,
     "cienciatecnologiaeinnovacion": 20,
     "productividadcompetitividadycomplementariedad": 46,
-    "ranking": 11
+    "ranking": "11/18"
   },
   {
     "name": "A-Pereira",
@@ -186,7 +186,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 59,
     "cienciatecnologiaeinnovacion": 13,
     "productividadcompetitividadycomplementariedad": 48,
-    "ranking": 8
+    "ranking": "8/18"
   },
   {
     "name": "A-Rionegro",
@@ -200,7 +200,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 46,
     "cienciatecnologiaeinnovacion": 18,
     "productividadcompetitividadycomplementariedad": 43,
-    "ranking": 10
+    "ranking": "10/18"
   },
   {
     "name": "A-Sogamoso",
@@ -214,7 +214,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 49,
     "cienciatecnologiaeinnovacion": 16,
     "productividadcompetitividadycomplementariedad": 41,
-    "ranking": 12
+    "ranking": "12/18"
   },
   {
     "name": "A-Tulua",
@@ -228,7 +228,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 37,
     "cienciatecnologiaeinnovacion": 10,
     "productividadcompetitividadycomplementariedad": 45,
-    "ranking": 18
+    "ranking": "18/18"
   },
   {
     "name": "A-Tunja",
@@ -242,7 +242,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 50,
     "cienciatecnologiaeinnovacion": 27,
     "productividadcompetitividadycomplementariedad": 43,
-    "ranking": 5
+    "ranking": "5/18"
   },
   {
     "name": "A-Villavicencio",
@@ -256,7 +256,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 41,
     "cienciatecnologiaeinnovacion": 9,
     "productividadcompetitividadycomplementariedad": 49,
-    "ranking": 16
+    "ranking": "16/18"
   }
 ]
 var uninodales = [
@@ -474,7 +474,7 @@ $(document).ready(function() {
 			"energy" : 2,
 			"color" : "#000000"
 		}, {
-			"source" : "Productividad, \nCompetitividad y \nComplementariedad\nEconómica",
+			"source" : "Productividad,\nCompetitividad y\nComplementariedad\nEconómica",
 			"conteo" : "pr",
 			"energy" : 2,
 			"color" : "#000000"
@@ -489,7 +489,7 @@ $(document).ready(function() {
 			"energy" : 2,
 			"color" : "#000000"
 		}, {
-			"source " : "Gobernanza, \nParticipación e \nInstituciones",
+			"source " : "Gobernanza,\nParticipación e\nInstituciones",
 			"conteo" : "g",
 			"energy" : 2,
 			"color" : "#000000"
@@ -553,7 +553,7 @@ $(document).ready(function() {
 			"color" : "#000000",
 			"color2" : "#cccccc"
 		}, {
-			"source" : "Productividad, \nCompetitividad y \nComplementariedad\nEconómica",
+			"source" : "Productividad,\nCompetitividad y\nComplementariedad\nEconómica",
 			"conteo" : "pr",
 			"energy" : 2,
 			"energy2" : 2,
@@ -574,7 +574,7 @@ $(document).ready(function() {
 			"color" : "#000000",
 			"color2" : "#cccccc"
 		}, {
-			"source" : "Gobernanza, \nParticipación e \nInstituciones",
+			"source" : "Gobernanza,\nParticipación e\nInstituciones",
 			"conteo" : "g",
 			"energy" : 2,
 			"energy2" : 2,
@@ -2144,7 +2144,7 @@ $(document).ready(function() {
 					contar = 0;
 
 					$.each(municipios, function(index, value2) {
-						if (value2.seccion == seleccionado && value2.relacion != value.relacion) {
+						if (value2.seccion == seleccionado && value2.tipo == value.tipo) {
 							contar++;
 						}
 					});
@@ -2213,7 +2213,7 @@ $(document).ready(function() {
 					contar = 0;
 
 					$.each(municipios, function(index, value2) {
-						if (value2.seccion == seleccionado2 && value2.relacion != value.relacion) {
+						if (value2.seccion == seleccionado2 && value2.tipo2 == value.tipo) {
 							contar++;
 						}
 					});
@@ -2266,7 +2266,7 @@ $(document).ready(function() {
 				energy : value[0].cienciatecnologiaeinnovacion,
 				color : colory1
 			}, {
-				source : "Productividad, \nCompetitividad y \nComplementariedad\nEconómica",
+				source : "Productividad,\nCompetitividad y\nComplementariedad\nEconómica",
 				conteo : "pr",
 				energy : value[0].productividadcompetitividadycomplementariedad,
 				color : colory2
@@ -2281,7 +2281,7 @@ $(document).ready(function() {
 				energy : value[0].equidadeinclusion,
 				color : colory4
 			}, {
-				source : "Gobernanza, \nParticipación e \nInstituciones",
+				source : "Gobernanza,\nParticipación e\nInstituciones",
 				conteo : "g",
 				energy : value[0].gobernanzaparticipacioneinstituciones,
 				color : colory5
@@ -2378,7 +2378,7 @@ $(document).ready(function() {
 						energy : value.cienciatecnologiaeinnovacion,
 						color : colory1
 					}, {
-						source : "Productividad, \nCompetitividad y \nComplementariedad\nEconómica",
+						source : "Productividad,\nCompetitividad y\nComplementariedad\nEconómica",
 						conteo : "pr",
 						energy : value.productividadcompetitividadycomplementariedad,
 						color : colory2
@@ -2393,7 +2393,7 @@ $(document).ready(function() {
 						energy : value.equidadeinclusion,
 						color : colory4
 					}, {
-						source : "Gobernanza, \nParticipación e \nInstituciones",
+						source : "Gobernanza,\nParticipación e\nInstituciones",
 						conteo : "g",
 						energy : value.gobernanzaparticipacioneinstituciones,
 						color : colory5
@@ -2766,7 +2766,7 @@ $(document).ready(function() {
 						color : colory1,
 						color2 : colory21
 					}, {
-						source : "Productividad, \nCompetitividad y \nComplementariedad\nEconómica",
+						source : "Productividad,\nCompetitividad y\nComplementariedad\nEconómica",
 						conteo : "pr",
 						energy : chartData[1].energy,
 						energy2 : value.productividadcompetitividadycomplementariedad,
@@ -2787,7 +2787,7 @@ $(document).ready(function() {
 						color : colory4,
 						color2 : colory24
 					}, {
-						source : "Gobernanza, \nParticipación e \nInstituciones",
+						source : "Gobernanza,\nParticipación e\nInstituciones",
 						conteo : "g",
 						energy : chartData[4].energy,
 						energy2 : value.gobernanzaparticipacioneinstituciones,
