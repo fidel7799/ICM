@@ -259,6 +259,70 @@ var aglomeraciones = [
     "ranking": 16
   }
 ]
+var uninodales = [
+  {
+    "relacion": "CO-ANT",
+    "Departamento": "Antioquia",
+    "municipio": "Antioquia",
+    "nombre": "Caucasia",
+    "id": 5154,
+    "adaptabilidadyresiliencia": 15,
+    "sostenibilidad": 27,
+    "pazterritorial": 37,
+    "equidadeinclusion": 42,
+    "gobernanzaparticipacioneinstituciones": 40,
+    "cienciatecnologiaeinnovacion": 4,
+    "productividadcompetitividadycomplementariedad": 40,
+    "icm": 32,
+    "lat": "0",
+    "long": "0",
+    "tipo": "municipio",
+    "ranking": "131/151",
+    "Aglomeracion-i": "SA-Otros SC",
+    "aglomeracion": "SA-OtrosSC",
+    "seccion": "uninodal",
+    "c1": 1,
+    "c2": 1,
+    "t1": 14,
+    "t2": 1,
+    "p1": 71,
+    "p2": 1,
+    "co1": 100,
+    "co2": 20,
+    "co3": 1,
+    "co4": 1,
+    "com1": 100,
+    "com2": 10,
+    "ic1": 100,
+    "ic2": 92,
+    "ic3": 1,
+    "ic4": 100,
+    "s1": 5,
+    "s2": 1,
+    "s3": 1,
+    "po1": 29,
+    "sa1": 24,
+    "sa2": 100,
+    "ed1": 45,
+    "ed2": 27,
+    "gob1": 1,
+    "gob2": 67,
+    "par1": 58,
+    "fo1": 94,
+    "fo2": 9,
+    "fo3": 12,
+    "fo4": 1,
+    "cn1": 3,
+    "cn2": 93,
+    "cua1": 42,
+    "cua2": 1,
+    "cua3": 36,
+    "cua4": 10,
+    "adr1": 100,
+    "adr2": 6,
+    "gob3": 1
+  },
+]
 $.each(ciudades, function(key, val) {
 	var item = [];
 	var coloritem = colores[Math.floor(Math.random() * colores.length)];
@@ -2080,12 +2144,12 @@ $(document).ready(function() {
 					contar = 0;
 
 					$.each(municipios, function(index, value2) {
-						if (value2.seccion == seleccionado && value2.relacion == value.relacion) {
+						if (value2.seccion == seleccionado && value2.relacion != value.relacion) {
 							contar++;
 						}
 					});
 					if (contar > 0) {
-						$("#ciudades").append('<option value="' + value.relacion + '">' + value.departamento + '</option>')
+						$("#ciudades").append('<option value="' + value.relacion + '">' + value.name + '</option>')
 
 					}
 				});
@@ -2149,12 +2213,12 @@ $(document).ready(function() {
 					contar = 0;
 
 					$.each(municipios, function(index, value2) {
-						if (value2.seccion == seleccionado2 && value2.relacion == value.relacion) {
+						if (value2.seccion == seleccionado2 && value2.relacion != value.relacion) {
 							contar++;
 						}
 					});
 					if (contar > 0) {
-						$("#ciudades2").append('<option value="' + value.relacion + '">' + value.departamento + '</option>')
+						$("#ciudades2").append('<option value="' + value.relacion + '">' + value.name + '</option>')
 					}
 				});
 			} else {
