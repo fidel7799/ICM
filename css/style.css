@@ -249,7 +249,7 @@ td {
 .ranking, .ranking2 {
 	font-weight: bold;
 	width: 29%;
-	padding-left: 5px;
+	padding-left: 0;
 	text-align: center;
 }
 .mun-tit {
@@ -273,15 +273,16 @@ td {
 	background: rgba(255,255,255,0.5);
 	margin-bottom: 10px;
 	padding: 10px;
+	padding-left: 0;
 }
 .titulo .cerrar, .titulo2 .cerrar2 {
 	position: absolute;
-	right: 5px;
+	right: -10px;
 	top: 15px;
 	display: block;
 	font-size: 30px;
 	color: #f1ac46;
-	background: #ffffff;
+	background: transparent;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
@@ -405,7 +406,7 @@ nav ul a {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-		width: 90%;
+		width: 77%;
 }
 
 #myImg:hover {opacity: 0.8;}

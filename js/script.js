@@ -18,7 +18,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 41,
     "cienciatecnologiaeinnovacion": 17,
     "productividadcompetitividadycomplementariedad": 44,
-    "ranking": 14
+    "ranking": "14/18"
   },
   {
     "name": "A-Barranquilla",
@@ -1034,7 +1034,7 @@ $(document).ready(function() {
 			"valueField" : "gob1",
 			"fillColorsField" : "color"
 		}, {
-			"balloonText" : "Usufructo de acueducto alcantarillado regional. <b>[[value]]</b>",
+			"balloonText" : "Efectividad regional. <b>[[value]]</b>",
 			"fillAlphas" : 1,
 			"lineAlpha" : 0.2,
 			"columnWidth": 0.60,
@@ -1042,15 +1042,6 @@ $(document).ready(function() {
 			"type" : "column",
 			"valueField" : "gob2",
 			"fillColorsField" : "color2"
-		}, {
-			"balloonText" : "Pertenencia al circuito de transporte publico. <b>[[value]]</b>",
-			"fillAlphas" : 1,
-			"lineAlpha" : 0.2,
-			"columnWidth": 0.60,
-			"title" : "Estandarizada",
-			"type" : "column",
-			"valueField" : "gob3",
-			"fillColorsField" : "color3"
 		}],
 		"plotAreaFillAlphas" : 0.1,
 		"categoryField" : "titulo",
@@ -2306,12 +2297,10 @@ $(document).ready(function() {
 					let deftipo;
 					if (value.seccion != "" && value.seccion != undefined) {
 						tipo = "Ciudad";
-						deftipo = "ICM";
 					} else {
 						tipo = "Municipio";
-						deftipo = "IMM";
 					}
-					$(".ranking").html("<div class='mun-tit'>" + value.ranking + "</div><br/>RANKING " + deftipo);
+					$(".ranking").html("<div class='mun-tit'>" + value.ranking + "</div><br/>RANKING");
 					$(".municipio").html("<div class='mun-tit'>" + destino + "</div><br/>"/* + tipo.toUpperCase() + ": "*/ + value.Departamento);
 					colory1 = colorSelect(value.cienciatecnologiaeinnovacion);
 					colory2 = colorSelect(value.productividadcompetitividadycomplementariedad);
@@ -2364,7 +2353,7 @@ $(document).ready(function() {
 					color2 = colorSelect(value.t2);
 
 					chartData6 = [{
-						"titulo" : "Technología e Innovación",
+						"titulo" : "Tecnología e Innovación",
 						"t1" : value.t1,
 						"t2" : value.t2,
 						"color" : color1,
@@ -2686,13 +2675,11 @@ $(document).ready(function() {
 
 					if (value.seccion != "" && value.seccion != undefined) {
 						tipo = "Ciudad";
-						deftipo = "ICM";
 					} else {
 						tipo = "Municipio";
-						deftipo = "IMM"
 					}
 					colorx=colorSelect(value.Departamento);
-					$(".ranking2").html("<div class='mun-tit' style='color:"+colorx+"'>" + value.ranking + "</div><br/>RANKING " + deftipo);
+					$(".ranking2").html("<div class='mun-tit' style='color:"+colorx+"'>" + value.ranking + "</div><br/>RANKING");
 					$(".municipio2").html("<div class='mun-tit'>" + destino + "</div><br/>" + value.Departamento);
 					$(".titulo2").css("display", "block");
 					colory1 = colorSelect(chartData[0].energy);
