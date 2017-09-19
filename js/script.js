@@ -18,7 +18,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 41,
     "cienciatecnologiaeinnovacion": 17,
     "productividadcompetitividadycomplementariedad": 44,
-    "ranking": "14/18"
+    "ranking": "20/56"
   },
   {
     "name": "A-Barranquilla",
@@ -32,7 +32,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 59,
     "cienciatecnologiaeinnovacion": 17,
     "productividadcompetitividadycomplementariedad": 54,
-    "ranking": "7/18"
+    "ranking": "7/56"
   },
   {
     "name": "A-Bogota,D.C.",
@@ -46,7 +46,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 54,
     "cienciatecnologiaeinnovacion": 64,
     "productividadcompetitividadycomplementariedad": 74,
-    "ranking": "1/18"
+    "ranking": "1/56"
   },
   {
     "name": "A-Bucaramanga",
@@ -60,7 +60,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 74,
     "cienciatecnologiaeinnovacion": 18,
     "productividadcompetitividadycomplementariedad": 51,
-    "ranking": "3/18"
+    "ranking": "3/56"
   },
   {
     "name": "A-Cali",
@@ -74,7 +74,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 57,
     "cienciatecnologiaeinnovacion": 31,
     "productividadcompetitividadycomplementariedad": 63,
-    "ranking": "4/18"
+    "ranking": "4/56"
   },
   {
     "name": "A-Cartagena",
@@ -88,7 +88,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 48,
     "cienciatecnologiaeinnovacion": 19,
     "productividadcompetitividadycomplementariedad": 54,
-    "ranking": "13/18"
+    "ranking": "15/56"
   },
   {
     "name": "A-Cucuta",
@@ -102,7 +102,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 54,
     "cienciatecnologiaeinnovacion": 27,
     "productividadcompetitividadycomplementariedad": 47,
-    "ranking": "17/18"
+    "ranking": "27/56"
   },
   {
     "name": "A-Duitama",
@@ -116,7 +116,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 46,
     "cienciatecnologiaeinnovacion": 17,
     "productividadcompetitividadycomplementariedad": 44,
-    "ranking": "9/18"
+    "ranking": "9/56"
   },
   {
     "name": "A-Girardot",
@@ -130,7 +130,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 45,
     "cienciatecnologiaeinnovacion": 17,
     "productividadcompetitividadycomplementariedad": 38,
-    "ranking": "15/18"
+    "ranking": "25/56"
   },
   {
     "name": "A-Manizales",
@@ -144,7 +144,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 51,
     "cienciatecnologiaeinnovacion": 29,
     "productividadcompetitividadycomplementariedad": 46,
-    "ranking": "6/18"
+    "ranking": "6/56"
   },
   {
     "name": "A-Medellin",
@@ -158,7 +158,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 66,
     "cienciatecnologiaeinnovacion": 38,
     "productividadcompetitividadycomplementariedad": 60,
-    "ranking": "2/18"
+    "ranking": "2/56"
   },
   {
     "name": "A-Pasto",
@@ -172,7 +172,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 45,
     "cienciatecnologiaeinnovacion": 20,
     "productividadcompetitividadycomplementariedad": 46,
-    "ranking": "11/18"
+    "ranking": "13/56"
   },
   {
     "name": "A-Pereira",
@@ -186,12 +186,12 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 59,
     "cienciatecnologiaeinnovacion": 13,
     "productividadcompetitividadycomplementariedad": 48,
-    "ranking": "8/18"
+    "ranking": "8/56"
   },
   {
     "name": "A-Rionegro",
     "valor": "Aglomeración de Rionegro",
-    "valor2": "CO-ANT",
+    "valor2": "CO-ATT",
     "icm": 43,
     "adaptabilidadyresiliencia": 0,
     "sostenibilidad": 50,
@@ -200,12 +200,12 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 46,
     "cienciatecnologiaeinnovacion": 18,
     "productividadcompetitividadycomplementariedad": 43,
-    "ranking": "10/18"
+    "ranking": "12/56"
   },
   {
     "name": "A-Sogamoso",
     "valor": "Aglomeración de Sogamoso",
-    "valor2": "CO-BPY",
+    "valor2": "CO-BPP",
     "icm": 43,
     "adaptabilidadyresiliencia": 0,
     "sostenibilidad": 42,
@@ -214,12 +214,12 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 49,
     "cienciatecnologiaeinnovacion": 16,
     "productividadcompetitividadycomplementariedad": 41,
-    "ranking": "12/18"
+    "ranking": "14/56"
   },
   {
     "name": "A-Tulua",
     "valor": "Aglomeración de Tuluá",
-    "valor2": "CO-VAC",
+    "valor2": "CO-VAA",
     "icm": 37,
     "adaptabilidadyresiliencia": 0,
     "sostenibilidad": 34,
@@ -228,12 +228,12 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 37,
     "cienciatecnologiaeinnovacion": 10,
     "productividadcompetitividadycomplementariedad": 45,
-    "ranking": "18/18"
+    "ranking": "34/56"
   },
   {
     "name": "A-Tunja",
     "valor": "Aglomeración de Tunja",
-    "valor2": "CO-BPY",
+    "valor2": "CO-BYY",
     "icm": 45,
     "adaptabilidadyresiliencia": 0,
     "sostenibilidad": 39,
@@ -242,7 +242,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 50,
     "cienciatecnologiaeinnovacion": 27,
     "productividadcompetitividadycomplementariedad": 43,
-    "ranking": "5/18"
+    "ranking": "5/56"
   },
   {
     "name": "A-Villavicencio",
@@ -256,7 +256,7 @@ var aglomeraciones = [
     "gobernanzaparticipacioneinstituciones": 41,
     "cienciatecnologiaeinnovacion": 9,
     "productividadcompetitividadycomplementariedad": 49,
-    "ranking": "16/18"
+    "ranking": "26/56"
   }
 ]
 var uninodales = [
@@ -2144,7 +2144,7 @@ $(document).ready(function() {
 					contar = 0;
 
 					$.each(municipios, function(index, value2) {
-						if (value2.seccion == seleccionado && value2.tipo == value.tipo) {
+						if (value2.seccion == seleccionado && value2.name == value.name) {
 							contar++;
 						}
 					});
@@ -2213,7 +2213,7 @@ $(document).ready(function() {
 					contar = 0;
 
 					$.each(municipios, function(index, value2) {
-						if (value2.seccion == seleccionado2 && value2.tipo2 == value.tipo) {
+						if (value2.seccion == seleccionado2 && value2.name == value.name) {
 							contar++;
 						}
 					});
