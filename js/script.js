@@ -2144,12 +2144,12 @@ $(document).ready(function() {
 					contar = 0;
 
 					$.each(municipios, function(index, value2) {
-						if (value2.seccion == seleccionado && value2.name == value.name) {
+						if (value2.seccion == seleccionado && value2.relacion == value.relacion) {
 							contar++;
 						}
 					});
 					if (contar > 0) {
-						$("#ciudades").append('<option value="' + value.relacion + '">' + value.name + '</option>')
+						$("#ciudades").append('<option value="' + value.relacion + '">' + value.departamento + '</option>')
 
 					}
 				});
@@ -2213,12 +2213,12 @@ $(document).ready(function() {
 					contar = 0;
 
 					$.each(municipios, function(index, value2) {
-						if (value2.seccion == seleccionado2 && value2.name == value.name) {
+						if (value2.seccion == seleccionado2 && value2.relacion == value.relacion) {
 							contar++;
 						}
 					});
 					if (contar > 0) {
-						$("#ciudades2").append('<option value="' + value.relacion + '">' + value.name + '</option>')
+						$("#ciudades2").append('<option value="' + value.relacion + '">' + value.departamento + '</option>')
 					}
 				});
 			} else {
