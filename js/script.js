@@ -1838,7 +1838,7 @@ $(document).ready(function() {
 									}
 								} else {
 									$(".tipo2").removeClass("tipotm");
-									if (n.seccion == "" || n.seccion == undefined) {
+									if (n.seccion == "uninodal") {
 										return (n.relacion == valor);
 									}
 								}

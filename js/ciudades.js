@@ -37477,7 +37477,7 @@ var ciudades = [
     "relacion": "CO-CHO",
     "Departamento": "Chocó",
     "municipio": "Choco",
-    "nombre": "Riosucio(2)",
+    "nombre": "Riosucio",
     "id": 27615,
     "adaptabilidadyresiliencia": 13,
     "sostenibilidad": 28,
