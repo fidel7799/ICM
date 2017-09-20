@@ -678,17 +678,17 @@ nav .button-collapse {
 
 .dropdown-content {
 		font-family: 'Futura Std Light', Arial, Helvetica;
+		font-size: 14px;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
 		color: black;
     min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px 12px 16px;
     z-index: 1;
 		line-height: 25px;
-		margin-top: 30px;
-		margin-left: -100px;
+		margin-top: 10px;
+		margin-left: -300px;
 		text-align: justify;
 }
 
@@ -698,8 +698,7 @@ nav .button-collapse {
 }
 
 .material-icons:hover {
-	color: darkred;
-	cursor: pointer;
+	cursor: help;
 }
 /*Estilos select alternativo*/
 .select2OptionPicker strong {
