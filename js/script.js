@@ -1811,42 +1811,55 @@ $(document).ready(function() {
 					}
 				} else {
 					$(".cont-ciudades2").slideUp("fast");
-					var valor = event.mapObject.id,
-					    comparar = "";
+					var valor = event.mapObject.id;
+
 					if (valor != "") {
-						if ($(".cont-municipios2").css('display') == 'none') {
+						/*if( $( ".cont-municipios" ).css( 'display' ) == 'none' ) */
+						{
 							$(".cont-municipios2").css("display", "block");
 							$(".cerrar2").data("destino", event.mapObject.id)
-							$("#municipios2").html('<option value="">- Seleccione uno:</option>');
+							$("#municipios2").html('<option value=""  selected>- Seleccione uno:</option>');
 							if ($("#tipociudad2").val() == "normal") {
-
-								comparar = jQuery.grep(aglomeraciones, function(n, i) {
+								var comparar = jQuery.grep(aglomeraciones, function(n, i) {
 									return (n.valor == $("#ciudades2 option:selected").html());
 								})
 							}
 							if (comparar == "") {
 								$("#tipo2").val("municipios")
 							}
-							console.log(valor);
 							var destinomunicipios = jQuery.grep(municipios, function(n, i) {
 								if ($("#tipo2").val() == "ciudad") {
-									$(".tipo2").addClass("tipotm");
 									if ($("#tipociudad2").val() == "normal") {
 										return (n.aglomeracion == comparar[0].name);
 									} else {
 										return (n.relacion == valor && n.seccion == "uninodal");
 									}
 								} else {
-									$(".tipo2").removeClass("tipotm");
-									if (n.seccion == "uninodal" || n.seccion == undefined) {
+									if (n.seccion == "" || n.seccion == undefined) {
 										return (n.relacion == valor);
 									}
 								}
 							});
+							if ($("#tipo2").val() == "ciudad") {
+								//$(".tipo").addClass("tipotm");
+								if ($("#tipociudad2").val() == "normal") {
+									$(".buscador2").html("Ciudad funcional - " + $("#ciudades option:selected").html())
 
+								} else {
+									$(".buscador2").html("Ciudad uninodal " + event.mapObject.enTitle)
+
+								}
+							} else {
+								$(".tipo2").removeClass("tipotm");
+								$(".buscador2").html(event.mapObject.enTitle)
+
+							}
 							if (destinomunicipios.length > 0) {
+								destinomunicipios.sort(function(a, b) {
+									return a.name < b.name;
+								});
 								$.each(destinomunicipios, function(index, value2) {
-									$(".buscador2").html(value2.municipio);
+
 									$("#municipios2").append('<option value="' + value2.id + '">' + value2.name + '</option>')
 
 								});
@@ -1855,7 +1868,7 @@ $(document).ready(function() {
 									    bt = $(b).text();
 									return (at > bt) ? 1 : ((at < bt) ? -1 : 0);
 								}));
-								$('#municipios2 option[value=""]').attr("selected", true);
+								$('#municipios2').val("");
 								$('#municipios2').material_select();
 							}
 
