@@ -1831,14 +1831,14 @@ $(document).ready(function() {
 							var destinomunicipios = jQuery.grep(municipios, function(n, i) {
 								if ($("#tipo2").val() == "ciudad") {
 									$(".tipo2").addClass("tipotm");
-									if ($("#tipociudad2").val() == "normal") {
+									if ($("#tipociudad2").val() == "uninodal") {
 										return (n.aglomeracion == comparar[0].name);
 									} else {
 										return (n.relacion == valor && n.seccion == "uninodal");
 									}
 								} else {
 									$(".tipo2").removeClass("tipotm");
-									if (n.seccion == "uninodal") {
+									if (n.seccion == "uninodal" || n.seccion == "uninodal") {
 										return (n.relacion == valor);
 									}
 								}
