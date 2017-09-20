@@ -1817,7 +1817,7 @@ $(document).ready(function() {
 						if ($(".cont-municipios2").css('display') == 'none') {
 							$(".cont-municipios2").css("display", "block");
 							$(".cerrar2").data("destino", event.mapObject.id)
-							$("#municipios2").html('<option value="" selected="selected">- Seleccione uno:</option>');
+							$("#municipios2").html('<option value="">- Seleccione uno:</option>');
 							if ($("#tipociudad2").val() == "normal") {
 
 								comparar = jQuery.grep(aglomeraciones, function(n, i) {
@@ -1831,14 +1831,14 @@ $(document).ready(function() {
 							var destinomunicipios = jQuery.grep(municipios, function(n, i) {
 								if ($("#tipo2").val() == "ciudad") {
 									$(".tipo2").addClass("tipotm");
-									if ($("#tipociudad2").val() == "uninodal") {
+									if ($("#tipociudad2").val() == "normal") {
 										return (n.aglomeracion == comparar[0].name);
 									} else {
 										return (n.relacion == valor && n.seccion == "uninodal");
 									}
 								} else {
 									$(".tipo2").removeClass("tipotm");
-									if (n.seccion == "uninodal" || n.seccion == "uninodal") {
+									if (n.seccion == "uninodal" || n.seccion == undefined) {
 										return (n.relacion == valor);
 									}
 								}
