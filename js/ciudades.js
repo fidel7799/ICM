@@ -2,7 +2,7 @@ var ciudades = [
   /* AGLOMERACIONES */
   {
     "relacion": "CO-QUI",
-    "Departamento": "Quindio",
+    "Departamento": "",
     "municipio": "Quindio",
     "nombre": "Aglomeración de Armenia",
     "id": 45612,
@@ -24,7 +24,7 @@ var ciudades = [
   },
   {
   "relacion": "CO-ATL",
-  "Departamento": "Atlántico",
+  "Departamento": "",
   "municipio": "Atlantico",
   "nombre": "Aglomeración de Barranquilla",
   "id": 45613,
@@ -46,7 +46,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-DC",
-  "Departamento": "Cundinamarca",
+  "Departamento": "",
   "municipio": "Cundinamarca",
   "nombre": "Aglomeración de Bogotá",
   "id": 45614,
@@ -68,7 +68,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-SAN",
-  "Departamento": "Santander",
+  "Departamento": "",
   "municipio": "Santander",
   "nombre": "Aglomeración de Bucaramanga",
   "id": 45615,
@@ -90,7 +90,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-VAC",
-  "Departamento": "Valle del Cauca",
+  "Departamento": "",
   "municipio": "ValledelCauca",
   "nombre": "Aglomeración de Cali",
   "id": 45616,
@@ -112,7 +112,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-BOL",
-  "Departamento": "Bolívar",
+  "Departamento": "",
   "municipio": "Bolivar",
   "nombre": "Aglomeración de Cartagena",
   "id": 45617,
@@ -134,7 +134,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-NSA",
-  "Departamento": "Norte de Santander",
+  "Departamento": "",
   "municipio": "NortedeSantander",
   "nombre": "Aglomeración de Cúcuta",
   "id": 45618,
@@ -156,7 +156,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-BPY",
-  "Departamento": "Boyacá",
+  "Departamento": "",
   "municipio": "Boyaca",
   "nombre": "Aglomeración de Duitama",
   "id": 45619,
@@ -178,7 +178,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-TOL",
-  "Departamento": "Cundinamarca",
+  "Departamento": "",
   "municipio": "Cundinamarca",
   "nombre": "Aglomeración de Girardot",
   "id": 45620,
@@ -200,7 +200,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-CAL",
-  "Departamento": "Caldas",
+  "Departamento": "",
   "municipio": "Caldas",
   "nombre": "Aglomeración de Manizales",
   "id": 45621,
@@ -222,7 +222,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-ANT",
-  "Departamento": "Antioquia",
+  "Departamento": "",
   "municipio": "Antioquia",
   "nombre": "Aglomeración de Medellin",
   "id": 45622,
@@ -244,7 +244,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-NAR",
-  "Departamento": "Nariño",
+  "Departamento": "",
   "municipio": "Nariño",
   "nombre": "Aglomeración de Pasto",
   "id": 45623,
@@ -266,7 +266,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-RIS",
-  "Departamento": "Risaralda",
+  "Departamento": "",
   "municipio": "Risaralda",
   "nombre": "Aglomeración de Pereira",
   "id": 45624,
@@ -288,7 +288,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-ATT",
-  "Departamento": "Antioquia",
+  "Departamento": "",
   "municipio": "Antioquia",
   "nombre": "Aglomeración de Rionegro",
   "id": 45625,
@@ -310,7 +310,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-BPP",
-  "Departamento": "Boyacá",
+  "Departamento": "",
   "municipio": "Boyaca",
   "nombre": "Aglomeración de Sogamoso",
   "id": 45626,
@@ -332,7 +332,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-VAA",
-  "Departamento": "Valle del Cauca",
+  "Departamento": "",
   "municipio": "ValledelCauca",
   "nombre": "Aglomeración de Tuluá",
   "id": 45627,
@@ -354,7 +354,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-BYY",
-  "Departamento": "Boyacá",
+  "Departamento": "",
   "municipio": "Boyaca",
   "nombre": "Aglomeración de Tunja",
   "id": 45628,
@@ -376,7 +376,7 @@ var ciudades = [
 },
 {
   "relacion": "CO-MET",
-  "Departamento": "Meta",
+  "Departamento": "",
   "municipio": "Meta",
   "nombre": "Aglomeración de Villavicencio",
   "id": 45629,

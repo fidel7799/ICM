@@ -344,7 +344,7 @@ $.each(ciudades, function(key, val) {
 		if (val.icm < 40) {
 			item["color"] = "#FF5F33"
 		}
-    if (val.icm < 25) {
+    if (val.icm < 20) {
 			item["color"] = "#E5304E"
 		}
 		item["latitude"] = val.lat.replace(",", ".");
@@ -375,7 +375,7 @@ $.each(ciudades, function(key, val) {
   if (val.icm < 40) {
     item["color"] = "#FF5F33"
   }
-  if (val.icm < 25) {
+  if (val.icm < 20) {
     item["color"] = "#E5304E"
   }
 	item["latitude"] = val.lat.replace(",", ".");

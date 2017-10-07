@@ -78,8 +78,6 @@
 					</div>
 
 					<div class="col s12 m6 columder">
-						<input id="provider-json" placeholder="Busca tu ciudad">
-					</input>
 						<div class="buscador activo">
 							Seleccione una ciudad
 						</div>
@@ -264,39 +262,11 @@
 		<script src="js/ammap/themes/light.js" type="text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 		<!-- popSelect -->
-		<script src="js/jquery.easy-autocomplete.js"></script>
 		<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 		<script src="js/quickselect.js"></script>
 		<script src="js/ciudades.js" type="text/javascript"></script>
 		<script src="js/uninodales.js" type="text/javascript"></script>
 		<script src="js/script.js" type="text/javascript"></script>
-		<script type="text/javascript">
-		var options = {
-		url: "js/ciudades.json",
-
-		getValue: "nombre",
-
-		template: {
-        type: "description",
-        fields: {
-            description: "Departamento"
-        }
-    },
-
-		list: {
-		onChooseEvent: function() {
-			var selectedItemValue = $("#autocomplete").getElementsByName('js/script.js')
-			$("#ciudades").val(selectedItemValue);
-		},
-		maxNumberOfElements: 8,
-		match: {
-			enabled: true
-		}
-	},
-	theme: "square"
-	};
-		$("#provider-json").easyAutocomplete(options);
-		</script>
 	</body>
 
 </html>
