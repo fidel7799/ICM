@@ -358,6 +358,7 @@ $.each(ciudades, function(key, val) {
 		}
 		items.push(item);
 	}
+  item["seccion"] = val.seccion;
 	item["relacion"] = val.relacion.toUpperCase();
 	item["id"] = val.id.toString();
 	item["name"] = val.nombre;
@@ -2328,7 +2329,7 @@ $(document).ready(function() {
 					if($(this).attr("href")=="#chartdiv1"){
 						$(this).css("display","none")
 					}
-				})
+        })
 				if ($(".botones").css("display") == "none") {
 					$(".botones").fadeIn("fast");
 				}
