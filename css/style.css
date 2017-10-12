@@ -854,7 +854,7 @@ nav .button-collapse {
 	  position: absolute;
     top: 75%;
     left: 5%;
-		width: 40%;
+		width: 30%;
 		z-index: 100000;
 }
 @media (max-width: 700px) {
