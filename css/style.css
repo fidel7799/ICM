@@ -852,9 +852,9 @@ nav .button-collapse {
 }
 .imgconvenciones{
 	  position: absolute;
-    top: 75%;
+    top: 80%;
     left: 5%;
-		width: 30%;
+		width: 28%;
 		z-index: 100000;
 }
 @media (max-width: 700px) {
